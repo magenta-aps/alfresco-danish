@@ -12,8 +12,8 @@ Usage
 -----
 To use the pre-packaged amps directly in your alfresco installation, you can download alfresco_da_dk.amp and share_da_dk.amp, going through the urls listed below respectively.
  
-http://nexus.magenta-aps.dk/nexus/index.html#nexus-search;quick~share_da_dk
-http://nexus.magenta-aps.dk/nexus/index.html#nexus-search;quick~alfresco_da_dk
+* http://nexus.magenta-aps.dk/nexus/index.html#nexus-search;quick~share_da_dk
+* http://nexus.magenta-aps.dk/nexus/index.html#nexus-search;quick~alfresco_da_dk
 
 Place the alfresco_da_dk.amp in the 'amps'-folder of your alfresco installation and  share_da_dk.amp in 'amps_share' and run ./bin/apply_amps.sh
 
@@ -103,4 +103,4 @@ You should be able to build the language pack amps yourself following these step
 1. clone this repository
 2. mvn clean install
 
-After completing these steps you will find the jar files containing the translation in the target folders of each submodule and in your local maven repository.
+After completing these steps you will find the amps files containing the translation in the target folders of each submodule and in your local maven repository.
