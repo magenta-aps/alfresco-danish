@@ -1,0 +1,94 @@
+##
+##  Meta kommandoer
+##
+
+ok> help
+
+    Lister denne hj�lp
+
+ok> r
+
+    Gentag seneste kommando.
+
+##
+##  Afslut
+##
+
+    Hvis du bruger en webbrowser, luk da dette vindue eller faneblad (og log ud fra Alfresco Explorer eller luk webbrowser).
+    
+    Hvis du k�rer kommandolinje v�rkt�jet, indtast da 'quit' eller 'exit'.
+
+##
+##  Tenant Kommandoer - for administering tenants
+##
+
+
+ok> show tenants
+
+    Lister allel tenanter og viser deres detaljer.
+    
+ok> show tenant <tenant domain>
+
+    Viser tenant detaljer - status (dvs. Om aktiveret eller inaktiveret) og rod indholdslager filmappe.
+
+    Eksempel:   show tenant yyy.zzz.com
+
+ok> create <tenant domain> <tenant admin password> [<root contentstore dir>]
+
+    Skab tom tenant. Som default er tenanten aktiveret. Den vil have en administrator
+    Bruger kaldet "admin@<tenant domain>" med suppleret administrator adgangskode. Alle brugere
+    som administratoren opretter, kan logge ind ved brug af "<username>@<tenant domain>". 
+    Roden i indholdslagrets filmappe kan frivilligt specificeres, ellers 
+    Den vil default v�re arkiv default rod af indholdslagret (som specificeret af 
+    dir.contentstore egenskaben). Default workflow vil ogs� blive l�st ved opstart (bootstraped).
+    
+    Eksempeler:  create zzz.com l3tm31n /usr/tenantstores/zzz
+               create yyy.zzz.com g00dby3 /usr/tenantstores/yyy.zzz
+               create myorg h3ll0
+
+ok> changeAdminPassword <tenant domain> <tenant admin password>
+
+    Brugbart hvis tenantens administrator (admin@<tenant domain>) har glemt sin adgangskode.
+    
+    Eksempel:   changeAdminPassword yyy.zzz.com n3wpassw0rd
+
+ok> enable <tenant domain>
+
+    Aktiver tenant s� denne er aktiv eller tilg�ngelig for indlogning
+    
+    Eksempel:   enable yyy.zzz.com
+
+ok> disable <tenant domain>
+
+    Inaktiver tenant s� denne er inaktiv. Eksisterende indlogninger vil fejle ved n�ste fors�g.
+    
+    Eksempel:   enable yyy.zzz.com
+    
+ok> delete <tenant domain>
+
+	BETA - Slet tenant. 
+	
+	Note: Dette kr�ver pt. genstart af server for at rense indekstr�dene. Og
+	tenant indeks filmapper b�r slettes manuelt.
+	
+	Eksempel:   delete yyy.zzz.com
+    
+ok> export <tenant domain> <destination directory>
+
+    Eksporter tenant til given destination filmappe. Eksporterede filnavne bliver suffikset med '<tenant domain>_'.
+    
+    Eksempel:   export yyy.zzz.com /usr/exportdir
+    
+ok> import <tenant domain> <source directory> [<root contentstore dir>]
+
+	BETA - opret tenant ved import af tenant filer fra en given kilde filmappe. Import filnavne skal
+	v�re suffikset med '<tenant domain>_'.
+	
+	Note: hvis der importeres ind i en tidligere slettet tenant, s� skal serveren stoppes efter sletningen
+	(og tenant indekser manuelt slettes) for genstart og udf�rsel af importen.
+	
+	Eksempel:   import yyy.zzz.com /usr/exportdir /usr/tenantstores/yyy.zzz
+
+##
+##  slut
+##

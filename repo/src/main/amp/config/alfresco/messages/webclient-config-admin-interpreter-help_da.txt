@@ -1,0 +1,32 @@
+##
+##  Meta kommandoer
+##
+
+ok> help
+
+    Lister denne hj�lp
+
+ok> r
+
+    Gentag seneste kommando.
+
+##
+##  Afslut
+##
+
+    Hvis du bruger en webbrowser, luk da dette vindue eller faneblad (og log ud fra Alfresco Explorer eller luk webbrowser).
+    
+    Hvis du k�rer kommandolinje v�rkt�jet, indtast da 'quit' eller 'exit'.
+
+##
+##  Webklient konfigurations og administrationskommandoer
+##
+
+ok> reload
+
+    Genindl�ser webklientens konfiguration fra konfigurationskildefiler (referer til web-client-application-context.xml)
+
+
+##
+##  slut
+##

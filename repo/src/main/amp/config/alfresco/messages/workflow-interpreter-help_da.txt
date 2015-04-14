@@ -1,0 +1,307 @@
+    ##
+    ##  Meta Kommandoer 
+    ## 
+    
+    ok> help 
+    
+        Lister denne hj�lp 
+    
+    ok> r 
+    
+        Gentag seneste kommando. 
+    
+    ok> user [<userName>] 
+    
+        Skift til specificeret <userName>.  Hvis <userName> undlades, vises nuv�rende 
+        bruger. 
+    
+    ok> use
+    
+        Vis nuv�rende workflow kontekst.
+        
+    ##
+    ##  Afslut
+    ##
+    
+        Hvis du bruger en webbrowser, luk da dette vindue eller faneblad (og log ud fra Alfresco Explorer eller luk webbrowser).
+    
+        Hvis du k�rer kommandolinje v�rkt�jet, indtast da 'quit' eller 'exit'.
+    
+    ## 
+    ##  Workflow definitionskommandoer 
+    ## 
+    
+    ok> show file <definitionClassPath>
+    
+        Viser indholdet af filen placeret p� stien <definitionClassPath>.
+        
+        <fileClassPath> klassestien for en workflow definitionsfil 
+    
+    ok> deploy <engine> <definitionClassPath> 
+    
+        Installer workflow definition til Alfresco server. 
+    
+        <fileClassPath> klassestien for en workflow definition. 
+        <engine> workflow motornavn (dvs. Activiti)
+    
+    ok> redeploy
+    
+        Geninstaller den sidste workflow definition.
+    
+    ok> show definitions [all]
+    
+        List senest installerede workflow definitioner.  Eller, vis alle workflow
+        definitioner (inklusiv foreg�ende versioner) med det supplerede n�gleord
+        'alle'.
+    
+    ok> use definition [<workflowDefId>] 
+    
+        Skift til brug af workflow definitionen identificeret af <workflowDefId>.  Hvis 
+        <workflowDefId> er undladt, den nuv�rende valgte workflow definition 
+        er vist. 
+    
+    ok> undeploy definition <workflowDefId>
+    
+        Afinstaller den senest version af workflow definitionen identificeret af 
+        <workflowDefId>.  Dette ville ogs� stoppe og fjerne alle "i gang" 
+        workflow associeret med definitionen.
+        
+        Hvis multiple versioner af definitionen eksistere, du bliver n�d til at afinstallere
+        hver i r�kkef�lge for at fjerne definitionen helt eller brug 'afinstaller
+        definitionsnavn' kommando.
+    
+    ok> undeploy definition name <workflowName>
+    
+        Afinstaller alle versioner af et workflow definition.  Som med 'afinstaller
+        definition', alle "i gang" workflow associeret med hver version
+        vil stoppes.
+    
+    ## 
+    ##  Variabel kommandoer 
+    ## 
+    
+    Note: De f�lgende variable er defineret automatisk n�r konsollen
+          starter.  De kan slettes eller �ndres.
+          
+          var bpm:package package 1       (test pakke af et dokument)
+          var bpm:assignee person admin   (test udf�rer som er administrator)
+    
+
+    ok> var 
+    
+        Vis alle definerede variable. 
+    
+    ok> var <varName>[*]=<varValue> 
+    
+        Definer eller opdater en variabel. 
+    
+        <varName> variabelnavn 
+        [*] hvis specificeret, definer en kollektion 
+        <varValue> variabelv�rdi (kommasepareret for at specificere en liste af v�rdier) 
+    
+        f.eks. 
+    
+        var bpm:assignee*=admin,fred 
+        var wf:notifyMe=true 
+    
+    ok> var <varName>[*] person <varValue> 
+    
+        Definer eller opdater en (cm:person) node ref variabel. 
+    
+        <varName> variabelnavn 
+        [*] hvis specificeret, definer en kollektion 
+        <varValue> variabelv�rdi (kommasepareret for at specificere en liste af v�rdier) 
+    
+        f.eks. 
+        
+        var bpm:assignee* person admin,fred 
+    
+    ok> var <varName>[*] group <varValue> 
+    
+        Definer eller opdater en (usr:authorityContainer) node ref variabel. 
+    
+        <varName> variabelnavn 
+        [*] hvis specificeret, definer en kollektion 
+        <varValue> variabelv�rdi (kommasepareret for at specificere en liste af v�rdier) 
+    
+        f.eks. 
+        
+        var bpm:groupAssignee group GROUP_Engineering
+    
+    ok> var <varName> package <itemCount>
+    
+        Definer eller opdater en (bpm:workflowPackage) node ref variabel.
+        
+        En ny workflowpakke blev skabt med <itemCount> indholdsposter.
+        
+        f.eks.
+        
+        var bpm:package package 4    
+    
+    ok> var <varName>= 
+    
+        Slet eksisterende variabel. 
+    
+        <varName> variabelnavn 
+    
+    ## 
+    ##  Workflow Kommandoer 
+    ## 
+        
+    ok> start [<varName[=varValue>]]* 
+    
+        Start et nyt workflow ved brug af valgte workflow definition.  Start 
+        Opgave parametre gives som navn/v�rdi par eller referencer til pr�definerede 
+        variabler. 
+        
+        f.eks. 
+        
+        start bpm:assignee=david wf:predefined 
+        
+    ok> show workflows [all]
+    
+        Viser listen af aktive workflow for valgte workflow 
+        definition.  Eller, vis listen af alle workflow (seneste og foreg�ende
+        versioner af procesdefinitioner) n�r yderligere n�gleord 'all' angives.
+    
+    ok> use workflow <workflowId>
+    
+        Brug specificerede <workflowId>.
+    
+    ok> desc workflow <workflowId> 
+    
+        Beskriv specificerede <workflowId>. 
+    
+    ok> show paths [<workflowId>] 
+    
+        Vis workflow sti for specificerede <workflowId>.  Hvis <workflowId> 
+        undlades, vises stierne for nuv�rende startede workflow. 
+    
+    ok> desc path <pathId>
+    
+        Beskriv specificerede <pathId>.  Inkludere listen af egenskaber associeret
+        med stien.
+    
+    ok> show transitions [<workflowId>] 
+    
+        Vis alle overgange for den specificerede <workflowId>.  Hvis 
+        <workflowId> undlades, overgangene for den nuv�rende startede workflow 
+        vises. 
+    
+    ok> signal <pathId> [<transitionName>] 
+    
+        Signaler overgang p� specificerede <pathId>.  Hvis <transitionName> undlades, 
+        tages default overgang. 
+    
+    ok> event <pathId> <eventtype>
+    
+        Afsend h�ndelse af tilpasset 'eventtype' til den specificerede sti.
+    
+    ok> end workflow <workflowId> 
+    
+        Slut (afslut) den specificerede <workflowId>. 
+    
+    ok> delete workflow <workflowId>
+    
+        Tving sletning af den specificerede <workflowId>.
+    
+    ok> delete all workflows
+    
+        Tving sletning af alle "i gang" workflow.  Brug varsomt!
+    
+    ##
+    ##  Timer Kommandoer
+    ##
+    
+    ok> show timers [all]
+    
+        Vis listen af aktive timers for valgte workflow 
+        definition.  Eller, vis listen af alle timere n�r 
+        suppleret n�gleordet 'all'.
+    
+    ## 
+    ##  Opgave Kommandoer 
+    ## 
+    
+    ok> show my tasks 
+    
+        List opgaver tildelt til nuv�rende valgte bruger. 
+    
+    ok> show my completed 
+    
+        List opgaver fuldf�rt til nuv�rende valgte bruger. 
+    
+    ok> show my pooled
+    
+        List opgaver i en pool til nuv�rende valgte bruger.
+        
+    ok> show tasks [<pathId>] 
+    
+        List opgaver associeret til det specificerede workflow.  Hvis <pathId>  
+        undlades, opgaverne associeret med nuv�rende valgte workflow sti 
+        vises. 
+    
+    ok> desc task <taskId> 
+    
+        Beskriv opgaven identificerede ved <taskId>. 
+    
+    ok> update task <taskid> [<varName[=varValue>]]* 
+    
+        Opdater tilstanden af den specificerede <taskId>.  Opgaveegenskaber gives som 
+        navn/vr�di par eller referencer til pr�definerede variabler. 
+    
+        <varName> variabelnavn 
+        [*] hvis specificeret, definer en kollektion 
+        <varValue> variabelv�rdi (kommasepareret for at specificere en liste af v�rdier) 
+        
+        f.eks. 
+        
+        update task jbpm$122 bpm:assignee=fred wf:notifyMe=false 
+    
+    ok> end task <taskId> [<transitionName>] 
+    
+        Afslut opgaven identificerede ved <taskId>.  Hvis <transitionName> undlades, 
+        tages default overgang. 
+       
+    ok> query task [predicate]*
+    
+        Foresp�rg p� opgaver.  Hvis ingen pr�dikat angives, alle "i gang" opgaver 
+        returneres (p� tv�rs af alle "aktive" workflow).
+        
+        Pr�dikater er:
+        
+        taskId=<taskId>
+        taskName=<taskName>              f.eks. taskName=wf:reviewTask
+        taskState=IN_PROGRESS|COMPLETED
+        taskActor=<actorId>              f.eks. taskActor=admin
+        task.<propqname>=<propvalue>     f.eks. task.bpm:outcome=approve
+        processId=<processId>
+        processName=<processName>        f.eks. processName=wf:review
+        workflowDefinitionName=<name>    f.eks. workflowDefinitionName=activitiAdhoc
+        processActive=true|false         f.eks. processActive=true
+        process.<propqname>=<propvalue>  f.eks. process.initiator=admin
+        orderBy=<orderBy>*               f.eks. orderBy=TaskDue_Desc,TaskActor_Asc
+        
+        Hvor <orderBy> er en af:
+        
+        TaskId_Asc,
+        TaskId_Desc,
+        TaskCreated_Asc,
+        TaskCreated_Desc,
+        TaskDue_Asc,
+        TaskDue_Desc,
+        TaskName_Asc,
+        TaskName_Desc,
+        TaskActor_Asc,
+        TaskActor_Desc,
+        TaskState_Asc,
+        TaskState_Desc     
+        
+        f.eks. foresp�rg alle k�rende afventende afsendelser for webprojekt X, sorteret p� afventende terminsdato, afsender
+        
+        foresp�rgselsopgave taskName=wcmwf:submitpending taskState=IN_PROGRESS \
+          process.wcwmf:webproject=workspace://SpacesStore/projectx orderBy=TaskDue_Desc,TaskActor_Asc
+        
+    ## 
+    ##  slut 
+    ## 

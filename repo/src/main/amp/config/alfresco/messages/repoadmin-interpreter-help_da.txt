@@ -1,0 +1,108 @@
+##
+##  Meta kommandoer
+##
+
+ok> help
+
+    Lister denne hj�lp
+
+ok> r
+
+    Gentag seneste kommando.
+    
+##
+##  Afslut
+##
+
+    Hvis du bruger en webbrowser, luk da dette vindue eller faneblad (og log ud fra Alfresco Explorer eller luk webbrowser).
+    
+    Hvis du k�rer kommandolinje v�rkt�jet, indtast da 'quit' eller 'exit'.
+
+##
+##  Generelle Repo Admin Kommandoer
+##
+
+ok> show file <fileClassPath>
+
+    Viser indehold af filen p� stien <fileClassPath>.
+
+    <fileClassPath> klassestien for en fil
+
+    F.eks. show file alfresco/extension/xxxModel.xml
+    F.eks. show file alfresco/extension/yyy-messages.properties
+    
+ok> show file-list <filesClassPath>
+
+    Viser filer p� stien <filesClassPath> med f�rste match listen for hvert filnavn.
+
+    <filesClassPath> klassesti til en liste af filer. Wildcard * er tilladt. F.eks., for at se
+    en liste af besked resursebundte som hentes anvend: /path1/path2/bundlename*.properties
+
+    f.eks. show file-list alfresco/extension/*
+    f.eks. show file-list alfresco/extension/*Model.xml
+    f.eks. show file-list alfresco/extension/zzz-messages*.properties
+        
+##
+##  Model Admin Kommandoer
+##
+
+ok> show models
+
+    Vis installerede modeller - som er lagret i arkivets dataleksikon.
+
+ok> deploy model <fileClassPath>
+
+    Overf�r model til arkivet og hent denne ind i k�rsels dataleksikon. Dette vil ogs�
+    S�tte arkiv modellen som aktiv. 
+    
+    Hvis modellen allerede er installeret, s� vil den blive opdateret og gen-installeret.
+
+    f.eks. deploy model alfresco/extension/exampleModel.xml
+
+ok> undeploy model <modelFileName>
+
+    Slet permanent model fra arkivet (alle versioner) og overf�r fra k�rsels dataleksikon.
+
+    f.eks. undeploy model exampleModel.xml
+
+ok> activate model <modelFileName>
+
+    S�tter arkivmodel til aktiv og henter denne ind i k�rsels dataleksikon.
+    
+    f.eks. activate model exampleModel.xml
+    
+ok> deactivate model <modelFileName>
+
+    S�tter arkivmodel til inaktiv og fjerner denne fra k�rsels dataleksikon. 
+    
+    f.eks. deactivate model exampleModel.xml
+    
+##
+##  Besked Admin Kommandoer
+##
+
+ok> show messages
+
+    Vis installerede besked resursebundter - som er lagret i arkivets dataleksikon.
+
+ok> deploy messages <resourceBundleClassPath>
+
+    Overf�r besked resursebundter til arkiv og k�rsels beskedservice.
+
+    f.eks. deploy messages alfresco/extension/lifecycle-messages
+    
+ok> undeploy messages <resourceBundleBaseName>
+
+    Fjern besked resursebundter fra arkiv eller k�rsels beskedservice.
+    
+    f.eks. undeploy messages lifecycle-messages
+    
+ok> reload messages <resourceBundleBaseName>
+
+    Genindl�s besked resursebundt fra arkiv eller k�rsels beskedservice.
+    
+    f.eks. reload messages lifecycle-messages
+
+##
+##  slut
+##
