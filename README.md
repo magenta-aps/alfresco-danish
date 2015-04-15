@@ -104,3 +104,25 @@ You should be able to build the language pack amps yourself following these step
 2. mvn clean install
 
 After completing these steps you will find the amps files containing the translation in the target folders of each submodule and in your local maven repository.
+
+Comparing / Integrating translations from Crowd-in / TinyMce-sources
+----------
+
+When you run the script ./refresh_crowdin_tinymce_workdir.sh it will create a folder name 'compare', and fetch the danish translations from Crowd-in and TinyMce directly from the sources. It will also try to create a directory-structure matching the layout of 'share' and 'repo'. This should facilitate the direct comparison of the directory structures, using your favorite tool supporting directory-comparison (like 'Meld','DeltaWalker' or 'Eclipse').
+
+```
+meld share/ compare/share/
+```
+
+and
+
+```
+meld repo/ compare/repo/
+```
+
+This should help you pick and choose translations, that you want to integrate into your language packs - as well as help you identify translations, that could be candidates for pushing 'upstream' to the sources (that is, Crowd-in and TinyMce).
+
+  
+
+
+
