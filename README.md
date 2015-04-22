@@ -45,15 +45,6 @@ meld repo/ compare/repo/
 
 This should help you pick and choose translations, that you want to integrate into your language packs - as well as help you identify translations, that could be candidates for pushing 'upstream' to the sources (that is, Crowd-in and TinyMce).
 
-  
-FAQ
-------
-
-*	When using the suggested 'unpack-deps'-profile to apply the language pack when starting Share using maven ( mvn clean integration-test -Pamp-to-war -Punpack-deps') the danish translations of Aikau texts are not visible. Why is that?  
-
-*	This is caused by the fact that currently, the tool used by maven when unpacking the language pack amp does not handle the "amp-to-war" file-mappings defined in the amp, the same way as ./bin/apply_amps.sh does. This means that the Aikua-translations are currently not placed in the right path when using maven to unpack the langauge pack - but they they are placed correctly (although duplicated) when deploying the amp using ./bin/apply_amps.sh from the alfresco installation directory.
-
-
 
 
 
