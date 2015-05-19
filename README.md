@@ -8,6 +8,12 @@ Please sign up there if you are interested in contributing with translations.
 Packaged builds of this Github-repository can be found at Magenta's public maven repository. At the time of this writing only snapshot builds are avaliable at http://nexus.magenta-aps.dk/nexus/content/repositories/Alfresco-SNAPSHOTS/
 
 
+Open-E
+--------
+
+Please notice that translations, that property-file-wise are part of this language pack, but logically belongs to the project Magenta Open-E / OpenESDH (https://github.com/OpenESDH/openesdh-core), should be placed on the branch Magenta_OpenE_Specific_Translations.
+
+
 Usage
 -----
 To use the pre-packaged amps directly in your alfresco installation, you can download alfresco_da_dk.amp and share_da_dk.amp, going through the urls listed below respectively.
