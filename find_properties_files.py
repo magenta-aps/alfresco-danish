@@ -5,6 +5,7 @@ from os.path import join, splitext, relpath
 EXTENSION = '.properties'
 LANG_EXT = 'fr'
 NOT_BLANK = 'not blank'
+MAX_VALUE_LENGTH = 100
 
 alfresco_source = '/home/andreas/alfresco-source/share/share/src/main/resources'
 translations_source = '/home/andreas/alfresco-danish/share/src/main/amp/config'
@@ -52,7 +53,9 @@ def find_files(path, lang_ext):
                 else:
                     properties = get_properties(join(tup[0], base + ext))
                 for key in properties:
-                    filenames.append((key, properties[key], filename, relpath(full_path, path), full_path))
+                    relative_path = relpath(full_path, path)
+                    uid = '{' + relative_path + '}' + key
+                    filenames.append((key, properties[key], filename, relative_path, full_path, uid))
     return filenames
 
 def unique_properties(tuples):
@@ -68,10 +71,22 @@ def unique_properties(tuples):
 filenames = find_files(alfresco_source, LANG_EXT)
 filenames_da = find_files(translations_source, 'da')
 
-d = unique_properties(filenames)
+# d = unique_properties(filenames)
 
-properties_en = dict(('{' + x[3] + '}' + x[0], x[1]) for x in filenames)
-properties_da = dict(('{' + x[3] + '}' + x[0], x[1]) for x in filenames_da)
+sorted_filenames = sorted(filenames, key = lambda filename: filename[0])
+danish_dictionary = dict((x[5], x[1]) for x in filenames_da)
+
+lines = []
+for tup in sorted_filenames:
+    if tup[5] in danish_dictionary:
+        lines.append(tup[0] + '; '+ tup[1][:MAX_VALUE_LENGTH] + '; ' + danish_dictionary[tup[5]][:MAX_VALUE_LENGTH] + '; ' + tup[5] + '\n')
+    else:
+        lines.append(tup[0] + '; '+ tup[1][:MAX_VALUE_LENGTH] + '; ; ' + tup[5] + '\n')
+
+with open('properties.csv', 'w') as f:
+    f.writelines(lines)
+
+exit(0)
 
 """
 count = 0
