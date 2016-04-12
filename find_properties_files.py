@@ -58,6 +58,15 @@ def find_files(path, lang_ext):
                     filenames.append((key, properties[key], filename, relative_path, full_path, uid))
     return filenames
 
+
+def read_properties_from_csv(filename):
+    with open(filename, 'r') as f:
+        lines = f.readlines()
+    # content = tuple([x.strip() for x in [line.split(';')[:4] for line in lines]])
+    content = [line.split(';')[:4] for line in lines]
+    content = [tuple([y.strip() for y in x]) for x in content]
+    return content
+
 def unique_properties(tuples):
     d = {}
     for t in tuples:
@@ -68,17 +77,22 @@ def unique_properties(tuples):
                 print t[0],'\t', d[t[0]], '\t',t[1]
     return d
 
+
 filenames = find_files(alfresco_source, LANG_EXT)
 filenames_da = find_files(translations_source, 'da')
 
-# d = unique_properties(filenames)
+english_dictionary = dict((x[5], x[1]) for x in filenames)
+danish_dictionary = dict((x[5], x[1]) for x in filenames_da)
+
+csv = read_properties_from_csv('properties_corrected.csv')
+csv_dictionary = dict((x[3], x[2]) for x in csv)
 
 sorted_filenames = sorted(filenames, key = lambda filename: filename[0])
-danish_dictionary = dict((x[5], x[1]) for x in filenames_da)
 
 lines = []
 for tup in sorted_filenames:
     if tup[5] in danish_dictionary:
+        pass
         lines.append(tup[0] + '; '+ tup[1][:MAX_VALUE_LENGTH] + '; ' + danish_dictionary[tup[5]][:MAX_VALUE_LENGTH] + '; ' + tup[5] + '\n')
     else:
         lines.append(tup[0] + '; '+ tup[1][:MAX_VALUE_LENGTH] + '; ; ' + tup[5] + '\n')
@@ -86,67 +100,18 @@ for tup in sorted_filenames:
 with open('properties.csv', 'w') as f:
     f.writelines(lines)
 
-exit(0)
+### Find the maximum length of the values
+# values_lengths = [len(x[1]) for x in sorted_filenames]
+# print max(values_lengths) 
+
+
 
 """
-count = 0
-count_not = 0
-for key in properties_en:
-    if key in properties_da: 
-        print key, properties_en[key], properties_da[key]
-        count += 1
-    else:
-         print key, properties_en[key]
-         count_not += 1
-    # raw_input()
-"""
-
-
-raise
-
-# d = dict((x[3], (x[0], x[1], x[2], x[4])) for x in filenames)
-
-# relative_paths = relative_path(full_paths, alfresco_source)
-# relative_paths_da = relative_path(full_paths_da, translations_source)
-
-### Sort the filename tuples
-sorted_filenames = sorted(filenames, key = lambda filename: filename[3])
-sorted_filenames_da = sorted(filenames_da, key = lambda filename: filename[0])
-
-labels = [x[0] for x in sorted_filenames]
-relative_paths = [x[3] for x in sorted_filenames]
-
-for tup in sorted_filenames:
-    print tup[0], tup[1], tup[2]
-
-"""
-labels = [x[0] for x in sorted_filenames]
-for l in labels:
-    # print type(l)
-    # print l
-    labels.remove(l)
-    if l in labels:
-        print l
-"""
-
-
-alf_list = [f[0] + ' ' + f[3]  + '\n' for f in sorted_filenames]
-trans_list = [f[0] + ' ' + f[3]  + '\n' for f in sorted_filenames_da]
-
-"""
-for i in range(len(sorted_filenames)):
+for tup in csv:
+    uid = tup[-1]
     try:
-        idx = filenames_da.index(filenames[i])
-        # print relative_paths[i], relative_paths_da[idx]
-        alf_list.append(relative_paths[i] + '\n')
-        trans_list.append(relative_paths_da[idx] + '\n')
+        if tup[1] != english_dictionary[uid]:
+            print uid
     except:
-        print filenames[i] + 'was not found'
+        print tup
 """
-
-with open('/tmp/alfresco_source.txt', 'w') as f:
-    f.writelines(alf_list)
-
-with open('/tmp/translations_source.txt', 'w') as f:
-    f.writelines(trans_list)
-
