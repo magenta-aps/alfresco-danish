@@ -77,6 +77,28 @@ def unique_properties(tuples):
                 print t[0],'\t', d[t[0]], '\t',t[1]
     return d
 
+def generate_new_danish_dictionary()
+
+"""
+### Generate new danish dict
+loop over uid
+  if uid not in danish_dict
+    if not value for uid is empty in english_dict
+      if value not empty in csv_dict
+        print englist value
+        print danish value
+        ask: update danish value?
+        if ok
+          update danish_dict
+        else
+          ask for replacement
+          if not stop
+            update danish_dict
+          else
+            add uid to list
+        write new danish_dict to file
+        write uid list of mistakes 
+"""
 
 filenames = find_files(alfresco_source, LANG_EXT)
 filenames_da = find_files(translations_source, 'da')
@@ -89,6 +111,7 @@ csv_dictionary = dict((x[3], x[2]) for x in csv)
 
 sorted_filenames = sorted(filenames, key = lambda filename: filename[0])
 
+### Generate CSV file ###
 lines = []
 for tup in sorted_filenames:
     if tup[5] in danish_dictionary:
