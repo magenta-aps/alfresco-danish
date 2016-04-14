@@ -1,7 +1,7 @@
 from os import walk
 from sys import argv
 from os.path import join, splitext, relpath
-from pickle import dump
+from pickle import dump, load
 
 EXTENSION = '.properties'
 LANG_EXT = 'fr'
@@ -93,11 +93,9 @@ def generate_csv(sorted_filenames):
     with open('properties.csv', 'w') as f:
         f.writelines(lines)
 
-def generate_new_danish_dictionary(english_dict, danish_dict, csv_dict):
-    danish_dict_additions = {}
-    translation_mistakes_uid = []
+def generate_new_danish_dictionary(english_dict, danish_dict, csv_dict, danish_dict_additions = {}, translation_mistakes_uid = []):
     for uid in english_dict.keys():
-        if uid not in danish_dict.keys() and english_dict[uid] != '' and csv_dict[uid] != '':
+        if uid not in danish_dict.keys() and uid not in danish_dict_additions.keys() and english_dict[uid] != '' and csv_dict[uid] != '':
             print 50*'-'
             print uid
             print english_dict[uid]
@@ -115,6 +113,14 @@ def generate_new_danish_dictionary(english_dict, danish_dict, csv_dict):
             else:
                 return danish_dict_additions, translation_mistakes_uid
 
+def load_dict(filename):
+    with open(filename, 'r') as f:
+        return load(f)
+
+def dump_dict(filename, dictionary, mistakes):
+    with open(filename, 'w') as f:
+        dump((dictionary, mistakes), f)
+
 filenames = find_files(alfresco_source, LANG_EXT)
 filenames_da = find_files(translations_source, 'da')
 
@@ -127,9 +133,10 @@ c = csv_dictionary = dict((x[3], x[2]) for x in csv)
 sorted_filenames = sorted(filenames, key = lambda filename: filename[0])
 generate_csv(sorted_filenames)
 
-da_dict_add, mistakes = generate_new_danish_dictionary(english_dictionary, danish_dictionary, csv_dictionary)
-with open('xxxda_dict_add.dat', 'w') as f:
-    dump((da_dict_add, mistakes), f)
+da_dict_add, mistakes = load_dict('da_dict_add.dat')
+da_dict_add, mistakes = generate_new_danish_dictionary(english_dictionary, danish_dictionary, csv_dictionary, da_dict_add, mistakes)
+
+dump_dict('da_dict_add.dat', da_dict_add, mistakes)
 
 
 
