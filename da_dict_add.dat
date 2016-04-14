@@ -1,0 +1,643 @@
+((dp0
+S'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search.get.properties}faceted-search-config.label'
+p1
+S'Konfiguration af facets\\u00f8gning'
+p2
+sS'{alfresco/messages/slingshot.properties}role.SiteManager.description'
+p3
+S'har fulde rettigheder til alt indhold p\xc3\xa5 sitet - b\xc3\xa5de det, som de selv og andre har oprettet'
+p4
+sS'{alfresco/site-webscripts/org/alfresco/modules/feed/config-feed.post.properties}title.error.unavailable'
+p5
+S'RSS feed er ikke tilg\\u00e6ngelig'
+p6
+sS'{alfresco/site-webscripts/org/alfresco/components/invite/members-bar.get.properties}link.add-users'
+p7
+S'Tilf\xc3\xb8j brugere'
+p8
+sS'{alfresco/site-webscripts/org/alfresco/components/dashlets/async-rssfeed.post.properties}title.error.unavailable'
+p9
+S'RSS feed er ikke tilg\\u00e6ngelig'
+p10
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.period.expression'
+p11
+S'Udtryk'
+p12
+sS'{alfresco/site-webscripts/org/alfresco/modules/cloud/cloud-sync-status.get.properties}sync.status.unknown-location.no-permissions'
+p13
+S'Du har ikke rettigheder til at se detaljer for nodes'
+p14
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.checkbox.no'
+p15
+S'Nej'
+p16
+sS'{alfresco/site-webscripts/org/alfresco/components/dashboard/customise-dashlets.get.properties}dashlet.site-content-report.description'
+p17
+S'Viser sitets forskellige typer grafisk'
+p18
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.isDefault.label'
+p19
+S'Standard filter'
+p20
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.filterId.placeHolder'
+p21
+S'Indtast et unikt filter ID'
+p22
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.object-picker.search.enter-more'
+p23
+S'Indtast mindst {0} tegn for at s\xc3\xb8ge'
+p24
+sS'{alfresco/site-webscripts/org/alfresco/components/dashboard/customise-dashlets.get.properties}welcomePanel.enabled'
+p25
+S'Vis p\xc3\xa5 instrumentbr\xc3\xa6t'
+p26
+sS'{alfresco/site-webscripts/org/alfresco/components/people-finder/people-finder.get.properties}message.results'
+p27
+S'TODO'
+p28
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search.get.properties}faceted-search.heading.facet-menu'
+p29
+S'Facetmenu'
+p30
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search.get.properties}faceted-search.select-search-form.label'
+p31
+S'V\xc3\xa6lg formular til avanceret s\xc3\xb8gning'
+p32
+sS'{alfresco/site-webscripts/org/alfresco/modules/cloud/cloud-sync-status.get.properties}sync.status.unknown-location.cause'
+p33
+S'\xc3\x85rsag'
+p34
+sS'{alfresco/site-webscripts/org/alfresco/components/dashlets/async-rssfeed.post.properties}title.error.unsupported'
+p35
+S'RSS feed format er ikke underst\xc3\xb8ttet'
+p36
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/share-header.lib.properties}header.menu.user_dashboard.label'
+p37
+S'Instrumentbr\xc3\xa6t'
+p38
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}selected-items.label'
+p39
+S'Valgte objekter...'
+p40
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.field.constraint.length'
+p41
+S'Dette felt skal indeholde mellem {0} og {1} tegn'
+p42
+sS'{alfresco/site-webscripts/org/alfresco/share/options/faceted-search/available-facets.get.properties}facetQName.description'
+p43
+S'Beskrivelse'
+p44
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.filterId.error.invalid'
+p45
+S'TODO'
+p46
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.sortBy.description'
+p47
+S'V\xc3\xa6lg r\xc3\xa6kkef\xc3\xb8lgen, som filterresultaterne vises i.'
+p48
+sS'{alfresco/messages/slingshot.properties}message.edit-online-aos.edit_offline_locked.cancel'
+p49
+S'Annuller'
+p50
+sS'{alfresco/site-webscripts/org/alfresco/components/tag-filter/tag-filter.get.properties}message.refresh.failure.forbidden'
+p51
+S'Tags er kun synlige for medlemmer af sitet'
+p52
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.sortBy.lowToHigh.label'
+p53
+S'Antal resultater (lav til h\xc3\xb8j)'
+p54
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.displayControl.label'
+p55
+S'Filtertype'
+p56
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.date-picker.entry.date.format'
+p57
+S'd/M/yyyy'
+p58
+sS'{alfresco/site-webscripts/org/alfresco/components/dashlets/dynamic-welcome.get.properties}user.welcome.close'
+p59
+S'Skjul'
+p60
+sS'{alfresco/site-webscripts/org/alfresco/components/dashboard/customise-dashlets.get.properties}header.welcomePreference'
+p61
+S'Kom godt i gang'
+p62
+sS'{alfresco/messages/slingshot.properties}roles-tooltip.header'
+p63
+S'Om roller'
+p64
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.object-picker.add-item'
+p65
+S'Tilf\xc3\xb8j'
+p66
+sS'{alfresco/messages/slingshot.properties}message.edit-online-aos.edit_offline_locked.title'
+p67
+S'{0} er ved redigere denne fil'
+p68
+sS'{alfresco/site-webscripts/org/alfresco/components/title/collaboration-title.get.properties}message.site-does-not-exist-title'
+p69
+S"Sitet ''{0}'' findes ikke, eller ogs\xc3\xa5 har du ikke tilladelse til at tilg\xc3\xa5 det"
+p70
+sS'{alfresco/site-webscripts/org/alfresco/components/console/module-package.get.properties}module-package.description'
+p71
+S'Beskrivelse'
+p72
+sS'{alfresco/site-webscripts/org/alfresco/components/dashlets/async-rssfeed.post.properties}dashlet.help'
+p73
+S'Instrumentet viser det RSS feed, som du \xc3\xb8nsker. Klik p\xc3\xa5 redigeringsikonet p\xc3\xa5 instrumentet for at skifte feed.'
+p74
+sS'{alfresco/messages/slingshot.properties}button.take-ownership'
+p75
+S'OK'
+p76
+sS'{alfresco/messages/slingshot.properties}message.edit-online-aos.plugin_blocked.body.firefox'
+p77
+S'Tryk p\xc3\xa5 v\xc3\xa6rkt\xc3\xb8jslinjen i Firefox for at forts\xc3\xa6tte'
+p78
+sS'{alfresco/site-webscripts/org/alfresco/components/console/usersgroups/users.get.properties}reauthorize.dialog.success'
+p79
+S'Re-autorisation lykkedes'
+p80
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.object-picker.selected-items.empty'
+p81
+S'Ingen objekter valgt'
+p82
+sS'{alfresco/site-webscripts/org/alfresco/components/invite/invitationlist.get.properties}added-users-list.tally'
+p83
+S'Antal brugere tilf\xc3\xb8jet {0}'
+p84
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.isEnabled.yes'
+p85
+S'Ja'
+p86
+sS'{alfresco/messages/slingshot.properties}site.visibility.label.PUBLIC'
+p87
+S'Offentlig'
+p88
+sS'{alfresco/messages/slingshot.properties}role.SiteCollaborator.description'
+p89
+S'TODO'
+p90
+sS'{alfresco/messages/slingshot.properties}message.take-ownership.failure'
+p91
+S"Kunne ikke blive ejer af ''{0}''"
+p92
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.isEnabled.no'
+p93
+S'Nej'
+p94
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.scope.description'
+p95
+S'V\xc3\xa6lg, hvor filtret skal v\xc3\xa6re tilg\xc3\xa6ngeligt'
+p96
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}create.html-document.title'
+p97
+S'Opret HTML dokument'
+p98
+sS'{alfresco/messages/slingshot.properties}actions.document.cancel-editing-unlock'
+p99
+S'L\xc3\xa5s dokument op'
+p100
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}create.folder.label'
+p101
+S'Mappe'
+p102
+sS'{alfresco/site-webscripts/org/alfresco/components/invite/instructions-bar.get.properties}instructions-bar.instructions-text'
+p103
+S'Find og v\xc3\xa6lg brugere, tildel dem roller og tilf\xc3\xb8j dem til dette site'
+p104
+sS'{alfresco/messages/slingshot.properties}hybridsync.ssd-id-header-label'
+p105
+S'Synkroniserings ID'
+p106
+sS'{alfresco/messages/slingshot.properties}tool.module-package.label'
+p107
+S'Modulbrowser'
+p108
+sS'{alfresco/site-webscripts/org/alfresco/components/console/usersgroups/users.get.properties}reauthorize.dialog.message'
+p109
+S'TODO'
+p110
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/share-header.lib.properties}group.home_page.label'
+p111
+S'Hjem'
+p112
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.date-picker.display.time.format'
+p113
+S'HH:MM (24 timer)'
+p114
+sS'{alfresco/messages/slingshot.properties}message.edit-online.supported_office_version_required'
+p115
+S'Du bruger en version af Microsoft Office, som ikke er underst\xc3\xb8ttet af Alfresco. Pr\xc3\xb8v at opdatere Microsoft Office. Office 2007 og 2008 virker ikke med Google Chrome.'
+p116
+sS'{alfresco/messages/slingshot.properties}role.Consumer.description'
+p117
+S'TODO'
+p118
+sS'{alfresco/site-webscripts/org/alfresco/components/console/cloud-sync-management.get.properties}button.ssd-reassign.applyFilter.label'
+p119
+S'Anvend filter'
+p120
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.notset'
+p121
+S'Ikke anf\xc3\xb8rt'
+p122
+sS'{alfresco/site-webscripts/org/alfresco/components/dashboard/customise-dashlets.get.properties}dashlet.top-site-contributor-report.description'
+p123
+S'Viser, hvem der har bidraget mest til sitet.'
+p124
+sS'{alfresco/messages/slingshot.properties}role.Collaborator'
+p125
+S'Samarbejdspartner'
+p126
+sS'{alfresco/messages/slingshot.properties}hybridsync.path-desc-header-label'
+p127
+S'Oprindelig placering af objekt'
+p128
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.mimetype.label'
+p129
+S'Mimetype'
+p130
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.mimetype.unknown'
+p131
+S'Ukendt'
+p132
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/admin-console/custom-model-manager.get.properties}cmm.button.back-to-models'
+p133
+S'<< Vis modeller'
+p134
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/share-header.lib.properties}group.other.label'
+p135
+S'Generelt'
+p136
+sS'{alfresco/site-webscripts/org/alfresco/components/console/cloud-sync-management.get.properties}button.ssd-reassign.exportCSV.label'
+p137
+S'Eksporter'
+p138
+sS'{alfresco/site-webscripts/org/alfresco/components/console/module-package.get.properties}module-package.version'
+p139
+S'Version'
+p140
+sS'{alfresco/messages/slingshot.properties}site.visibility.label.MODERATED'
+p141
+S'Modereret'
+p142
+sS'{alfresco/site-webscripts/org/alfresco/components/console/usersgroups/users.get.properties}deauthorize.dialog.header'
+p143
+S'TODO'
+p144
+sS'{alfresco/messages/slingshot.properties}actions.folder.take-ownership'
+p145
+S'Bliv ejer'
+p146
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}create.xml-document.title'
+p147
+S'Opret XML-dokument'
+p148
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.object-picker.current.failure'
+p149
+S'Kunne ikke vise nuv\xc3\xa6rende v\xc3\xa6rdier'
+p150
+sS'{alfresco/messages/slingshot.properties}site.visibility.label.PRIVATE'
+p151
+S'Privat'
+p152
+sS'{alfresco/site-webscripts/org/alfresco/components/console/usersgroups/users.get.properties}label.authorization.status.DEAUTHORIZED'
+p153
+S'TODO'
+p154
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.filterId.description'
+p155
+S'Det unikke id for dette s\xc3\xb8gefilter'
+p156
+sS'{alfresco/site-webscripts/org/alfresco/components/dashboard/customise-dashlets.get.properties}dashlet.site-content-report.shortName'
+p157
+S'Filetypeoversigt for sitet'
+p158
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search.get.properties}faceted-search.show-more-results.label'
+p159
+S'Vis flere resultater'
+p160
+sS'{alfresco/site-webscripts/org/alfresco/modules/documentlibrary/copy-move-to.get.properties}unzip.message.no-files'
+p161
+S'Der skal mindst tilf\xc3\xb8jes en fil, som skal udpakkes'
+p162
+sS'{alfresco/site-webscripts/org/alfresco/modules/feed/config-feed.post.properties}title.error.bad_data'
+p163
+S'RSS feed kan ikke l\xc3\xa6ses'
+p164
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}create.html-document.label'
+p165
+S'HTML-dokument'
+p166
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/admin-console/custom-model-manager.get.properties}header.menu.admin.model.manager.label'
+p167
+S'H\xc3\xa5ndter modeller'
+p168
+sS'{alfresco/messages/slingshot.properties}roles-tooltip.docs-url'
+p169
+S'http://docs.alfresco.com/{0}/references/permissions_share.html'
+p170
+sS'{alfresco/messages/slingshot.properties}role.Collaborator.description'
+p171
+S'TODO'
+p172
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.isEnabled.label'
+p173
+S'Vis med s\xc3\xb8geresultater'
+p174
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.association.message.error'
+p175
+S'Ikke muligt at udf\xc3\xb8re s\xc3\xb8gning'
+p176
+sS'{alfresco/messages/slingshot.properties}calendar.widget_control_config.label_month'
+p177
+S'V\xc3\xa6lg m\xc3\xa5ned'
+p178
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.date-range.from'
+p179
+S'Fra'
+p180
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.date-picker.choose'
+p181
+S'V\xc3\xa6lg en dato:'
+p182
+sS'{alfresco/site-webscripts/org/alfresco/components/dashboard/customise-dashlets.get.properties}dashlet.top-site-contributor-report.shortName'
+p183
+S'Bidragsyderoversigt for sitet'
+p184
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.date-picker.entry.datetime.format.nojs'
+p185
+S'YYYY-MM-DDThh:mm:ss.sTZD'
+p186
+sS'{alfresco/messages/slingshot.properties}message.edit-online-aos.edit_offline_locked.message'
+p187
+S'Dine \xc3\xa6ndringer vil muligvis g\xc3\xa5 tabt'
+p188
+sS'{alfresco/site-webscripts/org/alfresco/components/console/module-package.get.properties}module-package.page.title'
+p189
+S'Modulbrowser'
+p190
+sS'{alfresco/site-webscripts/org/alfresco/modules/feed/config-feed.post.properties}label.noNews'
+p191
+S'Ingen nyhedsposter'
+p192
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.sortBy.AtoZ.label'
+p193
+S'A-Z'
+p194
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.displayControl.basic.label'
+p195
+S'Afkrydningsfelt'
+p196
+sS'{alfresco/messages/slingshot.properties}role.Consumer'
+p197
+S'Konsument'
+p198
+sS'{alfresco/site-webscripts/org/alfresco/components/invite/added-users-list.get.properties}added-users-list.empty'
+p199
+S'Du har ikke tilf\xc3\xb8jet nogle brugere endnu'
+p200
+sS'{alfresco/site-webscripts/org/alfresco/components/console/cloud-sync-management.get.properties}button.ssd-reassign.confirm-label'
+p201
+S'Bliv ejer'
+p202
+sS'{alfresco/site-webscripts/org/alfresco/components/console/usersgroups/users.get.properties}message.deauthorize.failure'
+p203
+S'TODO'
+p204
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.association.message.instructions'
+p205
+S'Indtast s\xc3\xb8geterm'
+p206
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}doclib.options.label'
+p207
+S'Valgmuligheder'
+p208
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}doclib.fullscreen.label'
+p209
+S'Fuld sk\xc3\xa6rm'
+p210
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.delete.successMessage'
+p211
+S"'{filterID}' slettet"
+p212
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.required.fields.marker'
+p213
+S'*'
+p214
+sS'{alfresco/site-webscripts/org/alfresco/components/console/usersgroups/users.get.properties}message.deauthorize.success'
+p215
+S'Brugerens autorisation blev \xc3\xa6ndret'
+p216
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search.get.properties}faceted-search.results.heading.details'
+p217
+S'Resultatdetaljer'
+p218
+sS'{alfresco/site-webscripts/org/alfresco/components/console/usersgroups/users.get.properties}deauthorize.dialog.deauthorize.confirm.cancel'
+p219
+S'Annuller'
+p220
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}show-folders.label'
+p221
+S'Vis mapper'
+p222
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.filterId.label'
+p223
+S'Filter ID'
+p224
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}create.content.description.label'
+p225
+S'Beskrivelse'
+p226
+sS'{alfresco/site-webscripts/org/alfresco/components/console/cloud-sync-management.get.properties}message.no-ssds'
+p227
+S'Vi kunne ikke finde nogle synkroniserede filer eller mapper'
+p228
+sS'{alfresco/messages/slingshot.properties}message.edit-online-aos.plugin_blocked.body.chrome'
+p229
+S'Tryk p\xc3\xa5 blokeringsikonet p\xc3\xa5 adresselinjen i Chrome for at forts\xc3\xa6tte'
+p230
+sS'{alfresco/site-webscripts/org/alfresco/components/comments/comments-list.get.properties}link.showHelp'
+p231
+S'Vis hj\xc3\xa6lp'
+p232
+sS'{alfresco/messages/slingshot.properties}message.confirm.take-ownership.title'
+p233
+S'Bliv ejer?'
+p234
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.displayControl.description'
+p235
+S'V\xc3\xa6lg, hvordan filtret skal vises'
+p236
+sS'{alfresco/site-webscripts/org/alfresco/modules/create-site.get.properties}error.unableToCreate'
+p237
+S'Dette site-navn anvendes allerede af et andet site. Unders\xc3\xb8g, om et andet site (som m\xc3\xa5ske er slettet eller findes i en skraldespand) anvender navnet eller v\xc3\xa6lg et andet sitenavn'
+p238
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search.get.properties}faceted-search.hide-advanced-search.label'
+p239
+S'Skjul avanceret s\xc3\xb8gning'
+p240
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search.get.properties}faceted-search.suggestions.label'
+p241
+S'Mente du:'
+p242
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}create.xml-document.label'
+p243
+S'XML-dokument'
+p244
+sS'{alfresco/site-webscripts/org/alfresco/modules/documentlibrary/copy-move-to.get.properties}unzip.title.single'
+p245
+S'Udpak {0} til...'
+p246
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.update.successMessage'
+p247
+S"Opdaterede '{filterID}'"
+p248
+sS'{alfresco/site-webscripts/org/alfresco/components/console/module-package.get.properties}module-package.no-modules'
+p249
+S'Ingen moduler fundet'
+p250
+sS'{alfresco/messages/slingshot.properties}site.visibility.description.PUBLIC'
+p251
+S'Alle i din organisation kan tilg\xc3\xa5 dette site.'
+p252
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.required.fields'
+p253
+S'Obligatoriske felter'
+p254
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.facetQName.description'
+p255
+S'V\xc3\xa6lg egenskab at filtrere efter'
+p256
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.maxFilters.description'
+p257
+S'V\xc3\xa6lg det maksimale antal filtre som vises for s\xc3\xb8geresultater (brugere kan v\xc3\xa6lge at vise flere filtre)'
+p258
+sS'{alfresco/messages/slingshot.properties}lightbox.loading'
+p259
+S'henter'
+p260
+sS'{alfresco/messages/slingshot.properties}role.Editor.description'
+p261
+S'TODO'
+p262
+sS'{alfresco/messages/slingshot.properties}message.new-version-upload.success'
+p263
+S'Filen er uploadet. Forh\xc3\xa5ndsvisningen viser muligvis endnu ikke den seneste version af dokumentet - du kan genopfriske siden senere for at opdatere forh\xc3\xa5ndsvisningen'
+p264
+sS'{alfresco/site-webscripts/org/alfresco/components/calendar/view.get.properties}calendar.site-does-not-exist-title'
+p265
+S"Sitet ''{0}'' findes ikke eller ogs\xc3\xa5 har du ikke de n\xc3\xb8dvendige rettigheder til at tilg\xc3\xa5 det"
+p266
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.hitThreshold.description'
+p267
+S'V\xc3\xa6lg det mindste antal hits et filterresultat skal have for at blive vist'
+p268
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/admin-console/custom-model-manager.get.properties}cmm.button.create'
+p269
+S'Opret'
+p270
+sS'{alfresco/site-webscripts/org/alfresco/components/invite/invitationlist.get.properties}added-users-list.direct-add-instructions'
+p271
+S'Du har ikke valgt nogle brugere endnu'
+p272
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.field.not.editable'
+p273
+S'Systemet har forhindret dette felt i at blive redigeret'
+p274
+sS'{alfresco/messages/slingshot.properties}message.take-ownership.success'
+p275
+S"Du er nu ejer af ''{0}''"
+p276
+sS'{alfresco/site-webscripts/org/alfresco/components/dashboard/customise-dashlets.get.properties}label.keyboard-instruction2'
+p277
+S'Ved brug af tastetur: brug tabulatortasten for at v\xc3\xa6lge et instrument. Brug piletasterne for at navigere til n\xc3\xa6ste instrument. Tryk escape for at frav\xc3\xa6lge et objekt. Tryk Delete for at slette et objekt.'
+p278
+sS'{alfresco/site-webscripts/org/alfresco/share/options/faceted-search/available-facets.get.properties}facetQName.created'
+p279
+S'Oprettet'
+p280
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.create-facet.label'
+p281
+S'Opret nyt filter'
+p282
+sS'{alfresco/site-webscripts/org/alfresco/components/comments/comments-list.get.properties}link.help'
+p283
+S'Tasteturgenveje: Fed (Ctrl+B), Kursiv (Ctrl+I), Understreg (Ctrl+U), Fortryd (Ctrl+Z), Omg\xc3\xb8r (Ctrl+Y)'
+p284
+sS'{alfresco/messages/slingshot.properties}message.confirm.take-ownership'
+p285
+S"Du bliver ejer af ''{0}'' og den tidligere ejer vil muligvis f\xc3\xa5 indskr\xc3\xa6nket sine rettigheder"
+p286
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.date-range.to'
+p287
+S'Til'
+p288
+sS'{alfresco/site-webscripts/org/alfresco/components/console/cloud-sync-management.get.properties}button.ssd-reassign.cancel-label'
+p289
+S'Annuller'
+p290
+sS'{alfresco/messages/slingshot.properties}quickshare.document.unshare.user.failure'
+p291
+S'Du har ikke de n\xc3\xb8dvendige tilladelser til udf\xc3\xb8re denne handling'
+p292
+sS'{alfresco/site-webscripts/org/alfresco/components/title/collaboration-title.get.properties}message.site-does-not-exist'
+p293
+S'Det efterspurgte site findes ikke, eller ogs\xc3\xa5 har du ikke tilladelse til at tilg\xc3\xa5 det.'
+p294
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search-config.get.properties}faceted-search-config.facetQName.label'
+p295
+S'Filteregenskab'
+p296
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.object-picker.create-new.success'
+p297
+S'Oprettede nyt object "{0}"'
+p298
+sS'{alfresco/site-webscripts/org/alfresco/share/imports/share-header.lib.properties}set_current_page_as_home.label'
+p299
+S'Anvend nuv\xc3\xa6rende side'
+p300
+sS'{alfresco/messages/slingshot.properties}message.failure.workflow'
+p301
+S'Brugeren {0} har ikke tilladelse til at tilg\xc3\xa5 denne opgave'
+p302
+sS'{alfresco/site-webscripts/org/alfresco/components/form/control-wrapper.post.properties}form.control.encoding.unknown'
+p303
+S'Ukendt'
+p304
+sS'{alfresco/messages/slingshot.properties}calendar.widget_control_config.label_invalid_year'
+p305
+S'Indtast venligst et gyldigt \xc3\xa5rstal'
+p306
+sS'{alfresco/messages/slingshot.properties}site.visibility.description.PRIVATE'
+p307
+S'Kun brugere, som er tilf\xc3\xb8jet af en siteadministrator, kan finde og bruge dette site'
+p308
+sS'{alfresco/site-webscripts/org/alfresco/share/pages/admin-console/custom-model-manager.get.properties}cmm.button.cancel'
+p309
+S'Annuller'
+p310
+s(lp311
+g297
+ag117
+ag261
+ag203
+ag73
+ag171
+ag109
+ag39
+ag257
+ag47
+ag45
+ag27
+ag89
+ag153
+ag31
+ag167
+ag143
+aS'{alfresco/site-webscripts/org/alfresco/share/imports/document-library.lib.properties}show-sidebar.label'
+p312
+atp313
+.

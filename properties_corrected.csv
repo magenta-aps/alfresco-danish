@@ -2374,7 +2374,7 @@ label.modifier; Modifier; \u00c6ndret af; {alfresco/messages/slingshot.propertie
 label.modifier; Modifier; \u00c6ndret af; {alfresco/site-webscripts/org/alfresco/share/pages/faceted-search/faceted-search.get.properties}label.modifier;;;
 label.modifier; Modified by:; \u00c6ndret af:; {alfresco/site-webscripts/org/alfresco/components/wiki/pagelist.get.properties}label.modifier;;;
 label.month; Month; M\u00e5ned; {alfresco/site-webscripts/org/alfresco/components/calendar/view.get.properties}label.month;;;
-label.moreInfo; More Info &gt;Mere information &gt; Mere information &gt;; {alfresco/messages/slingshot.properties}label.moreInfo;
+label.moreInfo; More Info &gt;Mere information &gt; {alfresco/messages/slingshot.properties}label.moreInfo;;;
 label.moregroups; ... {0} more.; ... {0} mere.; {alfresco/site-webscripts/org/alfresco/components/console/usersgroups/groups.get.properties}label.moregroups;;;
 label.moreuserinfo; More about this user; Mere om denne bruger; {alfresco/site-webscripts/org/alfresco/components/console/usersgroups/users.get.properties}label.moreuserinfo;;;
 label.mostRecentlyCompletedTask; Most Recently Completed Task; Nyligste fuldf\u00f8rte opgaver; {alfresco/site-webscripts/org/alfresco/components/workflow/workflow-form.get.properties}label.mostRecentlyCompletedTask;;;
@@ -2575,7 +2575,7 @@ label.shortVersion; v; v; {alfresco/site-webscripts/org/alfresco/components/wiki
 label.shortname; Identifier; Identifikation; {alfresco/site-webscripts/org/alfresco/components/console/usersgroups/groups.get.properties}label.shortname;;;
 label.shortname.warning; (The Identifier for a Group cannot be changed once it has been set); (Identifikationen af en gruppe kan ikke \u00e6ndres, n\u00e5r f\u00f8rst den er sat); {alfresco/site-webscripts/org/alfresco/components/console/usersgroups/groups.get.properties}label.shortname.warning;;;
 label.show-less; Show Less ^; Vis mindre ^; {alfresco/site-webscripts/org/alfresco/components/calendar/view.get.properties}label.show-less;;;
-label.show-more; &#43; More v; &#43; Mere v; {alfresco/site-webscripts/org/alfresco/components/calendar/view.get.properties}label.show-more;
+label.show-more; &#43; More v; {alfresco/site-webscripts/org/alfresco/components/calendar/view.get.properties}label.show-more; Mere v;;
 label.showAll; Show System Groups; Vis systemgrupper; {alfresco/site-webscripts/org/alfresco/components/console/usersgroups/groups.get.properties}label.showAll;;;
 label.showmap; Show Map; Vis kort; {alfresco/site-webscripts/org/alfresco/components/profile/userprofile.get.properties}label.showmap;;;
 label.signIn; Sign in to Alfresco in the cloud; Log ind p\u00e5 Alfresco i skyen; {alfresco/site-webscripts/org/alfresco/components/profile/user-cloud-auth.get.properties}label.signIn;;;
@@ -4129,7 +4129,7 @@ role.SiteContributor; Contributor privileges; Bidragyder; {alfresco/site-webscri
 role.SiteContributor.description; has full rights to the site content that they own; they cannot edit or delete content created by oth; {alfresco/messages/slingshot.properties}role.SiteContributor.description;;;
 role.SiteManager; Manager; Ansvarlig; {alfresco/messages/slingshot.properties}role.SiteManager;;;
 role.SiteManager; Manager privileges; Bestyrer; {alfresco/site-webscripts/org/alfresco/modules/documentlibrary/permissions.get.properties}role.SiteManager;;;
-role.SiteManager.description; has full rights to all site content - what they have created themselves and what other site members ;har fulde rettigheder til alt indhold på sitet- både det, som de selv og andre har oprettet; {alfresco/messages/slingshot.properties}role.SiteManager.description;;;
+role.SiteManager.description; has full rights to all site content - what they have created themselves and what other site members ;har fulde rettigheder til alt indhold på sitet - både det, som de selv og andre har oprettet; {alfresco/messages/slingshot.properties}role.SiteManager.description;;;
 roles-tooltip.docs-url; http://docs.alfresco.com/{0}/references/permissions_share.html; http://docs.alfresco.com/{0}/references/permissions_share.html; {alfresco/messages/slingshot.properties}roles-tooltip.docs-url;;;
 roles-tooltip.docs-url-label; See more;Se mere; {alfresco/messages/slingshot.properties}roles-tooltip.docs-url-label;;;
 roles-tooltip.header; About Roles;Om roller; {alfresco/messages/slingshot.properties}roles-tooltip.header;;;
