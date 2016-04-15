@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from os import walk
-from sys import argv
-from os.path import join, splitext, relpath
+from os import walk, makedirs
+from os.path import join, splitext, relpath, isfile, dirname, exists
 from pickle import dump, load
+from sys import argv
+
 
 EXTENSION = '.properties'
 LANG_EXT = 'fr'
@@ -182,4 +183,27 @@ for key in da_dict_add.keys():
     da_dict_add[key] = da_dict_add[key].replace('Æ', '\\u00C6')
     da_dict_add[key] = da_dict_add[key].replace('Ø', '\\u00D8')
     da_dict_add[key] = da_dict_add[key].replace('Å', '\\u00C5')
-    
+
+
+def update_properties_files_with_new_danish_values(danish_dict_additions, path_prefix):
+    for uid in danish_dict_additions.keys():
+        path, label = uid.split('}')
+        path = path[1:]
+        full_path = join(path_prefix, path)
+        # print full_path
+        
+        print uid
+        if isfile(full_path):
+            print 'File already exists'
+            with open(full_path, 'a') as f:
+                f.write(label + '=' + danish_dict_additions[uid] + '\n')
+        else:
+            print 'Creating new file'
+            if not exists(dirname(full_path)):
+                makedirs(dirname(full_path))
+            with open(full_path, 'w') as f:
+                f.write(label + '=' + danish_dict_additions[uid] + '\n')
+            raw_input('tryk')
+
+update_properties_files_with_new_danish_values(da_dict_add, translations_source)
+
