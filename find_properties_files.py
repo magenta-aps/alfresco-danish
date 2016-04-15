@@ -190,20 +190,21 @@ def update_properties_files_with_new_danish_values(danish_dict_additions, path_p
         path, label = uid.split('}')
         path = path[1:]
         full_path = join(path_prefix, path)
+        full_path = full_path.replace(EXTENSION, '_da' + EXTENSION)
         # print full_path
         
         print uid
         if isfile(full_path):
             print 'File already exists'
             with open(full_path, 'a') as f:
-                f.write(label + '=' + danish_dict_additions[uid] + '\n')
+                f.write('\n' + label + '=' + danish_dict_additions[uid] + '\n')
         else:
             print 'Creating new file'
             if not exists(dirname(full_path)):
                 makedirs(dirname(full_path))
             with open(full_path, 'w') as f:
                 f.write(label + '=' + danish_dict_additions[uid] + '\n')
-            raw_input('tryk')
+            # raw_input('tryk')
 
 update_properties_files_with_new_danish_values(da_dict_add, translations_source)
 
