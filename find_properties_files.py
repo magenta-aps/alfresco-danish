@@ -10,7 +10,7 @@ EXTENSION = '.properties'
 LANG_EXT = 'fr'
 NOT_BLANK = 'not blank'
 MAX_VALUE_LENGTH = 200
-CSV_SEPARATOR = "@"
+CSV_SEPARATOR = ";"
 
 # alfresco_source = '/home/andreas/alfresco-source/share/share/src/main/resources'
 # alfresco_source = 'home/andreas/alfresco-5.1.e/tomcat/webapps/share/WEB-INF/classes'
@@ -92,14 +92,15 @@ def unique_properties(tuples):
     return d
 
 ### Generate CSV file ###
-def generate_csv(sorted_filenames):
+def generate_csv(sorted_filenames, separator = CSV_SEPARATOR):
+    separator += ' '
     lines = []
     for tup in sorted_filenames:
         if tup[5] in danish_dictionary:
             pass
-            lines.append(tup[0] + '; '+ tup[1][:MAX_VALUE_LENGTH] + '; ' + danish_dictionary[tup[5]][:MAX_VALUE_LENGTH] + '; ' + tup[5] + '\n')
+            lines.append(tup[0] + separator+ tup[1][:MAX_VALUE_LENGTH] + separator + danish_dictionary[tup[5]][:MAX_VALUE_LENGTH] + separator + tup[5] + '\n')
         else:
-            lines.append(tup[0] + '; '+ tup[1][:MAX_VALUE_LENGTH] + '; ; ' + tup[5] + '\n')
+            lines.append(tup[0] + separator+ tup[1][:MAX_VALUE_LENGTH] + separator + tup[5] + '\n')
 
     with open('properties.csv', 'w') as f:
         f.writelines(lines)
