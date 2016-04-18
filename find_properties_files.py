@@ -12,8 +12,14 @@ NOT_BLANK = 'not blank'
 MAX_VALUE_LENGTH = 200
 CSV_SEPARATOR = "@"
 
-alfresco_source = '/home/andreas/alfresco-source/share/share/src/main/resources'
-translations_source = '/home/andreas/alfresco-danish/share/src/main/amp/config'
+# alfresco_source = '/home/andreas/alfresco-source/share/share/src/main/resources'
+# alfresco_source = 'home/andreas/alfresco-5.1.e/tomcat/webapps/share/WEB-INF/classes'
+# translations_source = '/home/andreas/alfresco-danish/share/src/main/amp/config'
+
+### Aikau ###
+alfresco_source = '/home/andreas/alfresco-source/Aikau/aikau/src/main/resources'
+translations_source = '/home/andreas/alfresco-danish/share/src/main/amp/web/js/aikau/LATEST'
+
 
 # alfresco_source = '/mnt/sdb1/magenta/alfresco-source/share/share/src/main/resources'
 # translations_source = '/mnt/sdb1/magenta/alfresco-danish/share/src/main/amp/config'
@@ -135,13 +141,13 @@ filenames_da = find_files(translations_source, 'da')
 e = english_dictionary = dict((x[5], x[1]) for x in filenames)
 d = danish_dictionary = dict((x[5], x[1]) for x in filenames_da)
 
-csv = read_properties_from_csv('properties_corrected2.csv', CSV_SEPARATOR)
-c = csv_dictionary = dict((x[3], x[2]) for x in csv)
+# csv = read_properties_from_csv('properties_corrected2.csv', CSV_SEPARATOR)
+# c = csv_dictionary = dict((x[3], x[2]) for x in csv)
 
 sorted_filenames = sorted(filenames, key = lambda filename: filename[0])
 generate_csv(sorted_filenames)
 
-da_dict_add, mistakes = load_dict('da_dict_add_final.dat')
+# da_dict_add, mistakes = load_dict('da_dict_add_final.dat')
 # da_dict_add, mistakes = generate_new_danish_dictionary(english_dictionary, danish_dictionary, csv_dictionary, da_dict_add, mistakes)
 # 
 # dump_dict('da_dict_add.dat', da_dict_add, mistakes)
@@ -176,13 +182,13 @@ da_dict_add, mistakes = load_dict('da_dict_add_final.dat')
 # dump_dict('da_dict_add_final.dat', da_dict_add, [])
 
 
-for key in da_dict_add.keys():
-    da_dict_add[key] = da_dict_add[key].replace('æ', '\\u00E6')
-    da_dict_add[key] = da_dict_add[key].replace('ø', '\\u00F8')
-    da_dict_add[key] = da_dict_add[key].replace('å', '\\u00E5')
-    da_dict_add[key] = da_dict_add[key].replace('Æ', '\\u00C6')
-    da_dict_add[key] = da_dict_add[key].replace('Ø', '\\u00D8')
-    da_dict_add[key] = da_dict_add[key].replace('Å', '\\u00C5')
+# for key in da_dict_add.keys():
+#     da_dict_add[key] = da_dict_add[key].replace('æ', '\\u00E6')
+#     da_dict_add[key] = da_dict_add[key].replace('ø', '\\u00F8')
+#     da_dict_add[key] = da_dict_add[key].replace('å', '\\u00E5')
+#     da_dict_add[key] = da_dict_add[key].replace('Æ', '\\u00C6')
+#     da_dict_add[key] = da_dict_add[key].replace('Ø', '\\u00D8')
+#     da_dict_add[key] = da_dict_add[key].replace('Å', '\\u00C5')
 
 
 def update_properties_files_with_new_danish_values(danish_dict_additions, path_prefix):
@@ -206,5 +212,5 @@ def update_properties_files_with_new_danish_values(danish_dict_additions, path_p
                 f.write(label + '=' + danish_dict_additions[uid] + '\n')
             # raw_input('tryk')
 
-update_properties_files_with_new_danish_values(da_dict_add, translations_source)
+# update_properties_files_with_new_danish_values(da_dict_add, translations_source)
 
