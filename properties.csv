@@ -1,0 +1,931 @@
+Image.downloadLargeFile@ Click here to download it instead.@ Klik her for at hente den i stedet.@ {alfresco/preview/i18n/AlfDocumentPreview.properties}Image.downloadLargeFile
+Image.tooLargeFile@ File {0} might be too large to display ({1}).@ Fil {0} er m\u00e5ske for stor til visning ({1}).@ {alfresco/preview/i18n/AlfDocumentPreview.properties}Image.tooLargeFile
+Image.viewLargeFile@ Click here to view it anyway.@ Klik her for at vise den alligevel.@ {alfresco/preview/i18n/AlfDocumentPreview.properties}Image.viewLargeFile
+TinyMCE.toolbar.edit.title@ Edit@ {alfresco/editors/i18n/TinyMCE.properties}TinyMCE.toolbar.edit.title
+TinyMCE.toolbar.file.title@ File@ {alfresco/editors/i18n/TinyMCE.properties}TinyMCE.toolbar.file.title
+TinyMCE.toolbar.format.title@ Format@ {alfresco/editors/i18n/TinyMCE.properties}TinyMCE.toolbar.format.title
+TinyMCE.toolbar.insert.title@ Insert@ {alfresco/editors/i18n/TinyMCE.properties}TinyMCE.toolbar.insert.title
+TinyMCE.toolbar.table.title@ Table@ {alfresco/editors/i18n/TinyMCE.properties}TinyMCE.toolbar.table.title
+TinyMCE.toolbar.view.title@ View@ {alfresco/editors/i18n/TinyMCE.properties}TinyMCE.toolbar.view.title
+access.key.links.message@ Access key links:@ Genvejstaster:@ {alfresco/accessibility/i18n/AccessibilityMenu.properties}access.key.links.message
+access.keys.message@ Access keys@ Genvejstaster@ {alfresco/accessibility/i18n/AccessibilityMenu.properties}access.keys.message
+accessibility.help.message@ Site help@ Sitehj\u00e6lp@ {alfresco/accessibility/i18n/AccessibilityMenu.properties}accessibility.help.message
+actions.change-type@ Change Type@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.change-type
+actions.copy-to@ Copy to...@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.copy-to
+actions.delete@ Delete@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.delete
+actions.download@ Download@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.download
+actions.download-as-zip@ Download as Zip@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.download-as-zip
+actions.manage-aspects.label@ Manage Aspects@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.manage-aspects.label
+actions.more@ More...@ Mere...@ {alfresco/services/i18n/ActionService.properties}actions.more
+actions.move-to@ Move to...@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.move-to
+actions.start-workflow.label@ Start Workflow@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.start-workflow.label
+actions.upload-new-version.label@ Upload New Version@ {alfresco/renderers/i18n/_ActionsMixin.properties}actions.upload-new-version.label
+add-favourite-site.label@ Add current site to Favorites@ Tilf\u00f8j nuv\u00e6redne sted til favoritter@ {alfresco/header/i18n/AlfSitesMenu.properties}add-favourite-site.label
+aggregate-progress.label@ Overall upload progress@ Oversigt over uploadfremskridt@ {alfresco/upload/i18n/AlfUploadDisplay.properties}aggregate-progress.label
+alf.renderers.Actions.menuLabel@ Actions \u25BC@ Aktioner@ {alfresco/renderers/i18n/Actions.properties}alf.renderers.Actions.menuLabel
+alf.renderers.PublishingDropDownMenu.cancelUpdate@ Cancel the update and reset to "{0}"@ {alfresco/renderers/i18n/PublishingDropDownMenu.properties}alf.renderers.PublishingDropDownMenu.cancelUpdate
+alflist.data.failure.message@ We couldn't load the data. Try refreshing your screen, or check with your Alfresco Administrator that the server is running.@ {alfresco/lists/i18n/AlfList.properties}alflist.data.failure.message
+alflist.loading.data.message@ Loading...@ {alfresco/lists/i18n/AlfList.properties}alflist.loading.data.message
+alflist.no.data.message@ There's nothing to display@ {alfresco/lists/i18n/AlfList.properties}alflist.no.data.message
+alflist.rendering.data.message@ View loading...@ {alfresco/lists/i18n/AlfList.properties}alflist.rendering.data.message
+alternativesearch.searchInsteadFor@ Search instead for:@ {alfresco/search/i18n/AlternativeSearchLabel.properties}alternativesearch.searchInsteadFor
+alternativesearch.searchedFor@ Showing results for:@ {alfresco/search/i18n/AlternativeSearchLabel.properties}alternativesearch.searchedFor
+aspect.app_inlineeditable@ Inline Editable@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.app_inlineeditable
+aspect.audio_audio@ Audio@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.audio_audio
+aspect.cm_complianceable@ Complianceable@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_complianceable
+aspect.cm_dublincore@ Dublin Core@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_dublincore
+aspect.cm_effectivity@ Effectivity@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_effectivity
+aspect.cm_emailed@ Emailed@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_emailed
+aspect.cm_generalclassifiable@ Classifiable@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_generalclassifiable
+aspect.cm_geographic@ Geographic@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_geographic
+aspect.cm_indexControl@ Index Control@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_indexControl
+aspect.cm_summarizable@ Summarizable@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_summarizable
+aspect.cm_taggable@ Taggable@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_taggable
+aspect.cm_templatable@ Templatable@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_templatable
+aspect.cm_versionable@ Versionable@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.cm_versionable
+aspect.dp_restrictable@ Restrictable@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.dp_restrictable
+aspect.emailserver_aliasable@ Aliasable (Email)@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.emailserver_aliasable
+aspect.exif_exif@ EXIF@ {alfresco/services/actions/i18n/ManageAspectsService.properties}aspect.exif_exif
+atom.title.site@ Alfresco Activities Site Feed for {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}atom.title.site
+atom.title.user@ Alfresco Activities User Feed for {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}atom.title.user
+boolean.false@ False@ Falsk@ {alfresco/renderers/i18n/Boolean.properties}boolean.false
+boolean.no@ No@ Nej@ {alfresco/renderers/i18n/Boolean.properties}boolean.no
+boolean.true@ True@ Sandt@ {alfresco/renderers/i18n/Boolean.properties}boolean.true
+boolean.unknown@ Unknown@ Ukendt@ {alfresco/renderers/i18n/Boolean.properties}boolean.unknown
+boolean.yes@ Yes@ Ja@ {alfresco/renderers/i18n/Boolean.properties}boolean.yes
+button.cancel-logging-prefs-update@ Cancel@ Annuller@ {alfresco/services/i18n/LoggingService.properties}button.cancel-logging-prefs-update
+button.close@ Close@ {alfresco/dialogs/i18n/AlfDialog.properties}button.close
+button.close.label@ Close this panel@ {alfresco/layout/i18n/StickyPanel.properties}button.close.label
+button.delete-site.cancel-label@ Cancel@ Annuller@ {alfresco/services/i18n/SiteService.properties}button.delete-site.cancel-label
+button.delete-site.confirm-label@ OK@ Ok@ {alfresco/services/i18n/SiteService.properties}button.delete-site.confirm-label
+button.folders.hide@ Hide Folders@ Gem mapper@ {alfresco/services/i18n/ActionService.properties}button.folders.hide
+button.folders.show@ Show Folders@ Vis mapper@ {alfresco/services/i18n/ActionService.properties}button.folders.show
+button.leave-site.cancel-label@ Cancel@ Annuller@ {alfresco/services/i18n/SiteService.properties}button.leave-site.cancel-label
+button.leave-site.confirm-label@ OK@ Ok@ {alfresco/services/i18n/SiteService.properties}button.leave-site.confirm-label
+button.maximize@ Maximize@ Maksim\u00e9r@ {alfresco/preview/i18n/AlfDocumentPreview.properties}button.maximize
+button.maximize.tip@ Use full browser viewport (or press {0}+Enter for presentation mode)@ Brug browserens st\u00f8rrelse(eller tryk {0}+Enter for pr\u00e6sentationsvisning)@ {alfresco/preview/i18n/AlfDocumentPreview.properties}button.maximize.tip
+button.minimise.label@ Minimize this panel@ {alfresco/layout/i18n/StickyPanel.properties}button.minimise.label
+button.minimize@ Minimize@ Minim\u00e9r@ {alfresco/preview/i18n/AlfDocumentPreview.properties}button.minimize
+button.minimize.tip@ Return to normal size@ Tilbage til normal st\u00f8rrelse@ {alfresco/preview/i18n/AlfDocumentPreview.properties}button.minimize.tip
+button.present.tip@ Start Presentation ({0}+Enter)@ Start Pr\u00e6sentation({0}+Enter)@ {alfresco/preview/i18n/AlfDocumentPreview.properties}button.present.tip
+button.restore.label@ Restore this panel@ {alfresco/layout/i18n/StickyPanel.properties}button.restore.label
+button.save-logging-prefs@ Save@ Gem@ {alfresco/services/i18n/LoggingService.properties}button.save-logging-prefs
+button.search.tip@ Search ({0}+F)@ S\u00f8g({0}+F)@ {alfresco/preview/i18n/AlfDocumentPreview.properties}button.search.tip
+button.sort.ascending@ Sort Ascending@ Sorter stigende@ {alfresco/services/i18n/ActionService.properties}button.sort.ascending
+button.sort.descending@ Sort Descending@ Sorter faldende@ {alfresco/services/i18n/ActionService.properties}button.sort.descending
+cancel.button.label@ Cancel@ Annuller@ {alfresco/header/i18n/CurrentUserStatus.properties}cancel.button.label
+categories.root.label@ Category Root@ Kategorirod@ {alfresco/navigation/i18n/CategoryTree.properties}categories.root.label
+category.filter.title@ Display folders and documents classified as "{0}"@ Vis mapper og dokumenter klassificeret som  "{0}"@ {alfresco/renderers/i18n/Category.properties}category.filter.title
+change-type.dialog.title@ Change Type of ''{0}''@ {alfresco/services/actions/i18n/ChangeTypeService.properties}change-type.dialog.title
+change-type.failure@ We couldn't change the type of ''{0}''. Check with your Alfresco Administrator that the type matches the data model.@ {alfresco/services/actions/i18n/ChangeTypeService.properties}change-type.failure
+change-type.select.desription@ Select a new type for the file. You can only select a type that's based on the current type.@ {alfresco/services/actions/i18n/ChangeTypeService.properties}change-type.select.desription
+change-type.select.label@ New type@ {alfresco/services/actions/i18n/ChangeTypeService.properties}change-type.select.label
+change-type.success@ Type of document ''{0}'' was successfully changed@ {alfresco/services/actions/i18n/ChangeTypeService.properties}change-type.success
+close.node.preview.dialog@ Close@ {alfresco/services/i18n/NodePreviewService.properties}close.node.preview.dialog
+cloud-auth.dialog.auth.error.message@ Email or password not recognised@ {alfresco/services/i18n/CloudSyncService.properties}cloud-auth.dialog.auth.error.message
+cloud-auth.dialog.auth.error.title@ Login issue@ {alfresco/services/i18n/CloudSyncService.properties}cloud-auth.dialog.auth.error.title
+cloud-auth.dialog.button.cancel@ Cancel@ {alfresco/services/i18n/CloudSyncService.properties}cloud-auth.dialog.button.cancel
+cloud-auth.dialog.button.ok@ Connect@ {alfresco/services/i18n/CloudSyncService.properties}cloud-auth.dialog.button.ok
+cloud-auth.dialog.cloud-email.label@ Email@ {alfresco/services/i18n/CloudSyncService.properties}cloud-auth.dialog.cloud-email.label
+cloud-auth.dialog.cloud-password.label@ Password@ {alfresco/services/i18n/CloudSyncService.properties}cloud-auth.dialog.cloud-password.label
+cloud-auth.dialog.save.label@ Details are stored for when you sync content@ {alfresco/services/i18n/CloudSyncService.properties}cloud-auth.dialog.save.label
+cloud-auth.dialog.title@ Sign in to Alfresco in the Cloud@ {alfresco/services/i18n/CloudSyncService.properties}cloud-auth.dialog.title
+cloud-sync-failure.message@ We couldn't create a sync.@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync-failure.message
+cloud-sync.dialog.home-network.label@ Use Home Network@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.home-network.label
+cloud-sync.dialog.includeSubFolders.label@ Sync subfolders@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.includeSubFolders.label
+cloud-sync.dialog.is-delete-on-cloud.label@ Can be deleted on cloud@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.is-delete-on-cloud.label
+cloud-sync.dialog.is-delete-on-prem.label@ Delete on cloud also deletes original@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.is-delete-on-prem.label
+cloud-sync.dialog.lock-source-copy.label@ Lock original@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.lock-source-copy.label
+cloud-sync.dialog.multiple.title@ Sync selected content@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.multiple.title
+cloud-sync.dialog.network.label@ Network@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.network.label
+cloud-sync.dialog.path.label@ Location@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.path.label
+cloud-sync.dialog.single.title@ Sync {0}@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.single.title
+cloud-sync.dialog.site.label@ Site@ {alfresco/services/i18n/CloudSyncService.properties}cloud-sync.dialog.site.label
+comment.add@ Add Comment@ {alfresco/renderers/i18n/CommentsList.properties}comment.add
+comment.add.cancel@ Cancel@ {alfresco/renderers/i18n/CommentsList.properties}comment.add.cancel
+comment.add.confirm@ Add@ {alfresco/renderers/i18n/CommentsList.properties}comment.add.confirm
+comment.delete@ Delete Comment@ {alfresco/renderers/i18n/CommentsList.properties}comment.delete
+comment.delete.prompt@ Are you sure you want to delete the comment?@ {alfresco/renderers/i18n/CommentsList.properties}comment.delete.prompt
+comment.delete.success@ Successfully deleted@ {alfresco/renderers/i18n/CommentsList.properties}comment.delete.success
+comment.edit@ Edit Comment@ {alfresco/renderers/i18n/CommentsList.properties}comment.edit
+comment.save@ Save@ {alfresco/renderers/i18n/EditableComment.properties}comment.save
+comments.document.tooltip@ Comment on this document@ Kommenter p\u00e5 dette dokument@ {alfresco/renderers/i18n/Comments.properties}comments.document.tooltip
+comments.folder.tooltip@ Comment on this folder@ Kommenter p\u00e5 denne mappe@ {alfresco/renderers/i18n/Comments.properties}comments.folder.tooltip
+comments.label@ Comments@ Kommentarer@ {alfresco/renderers/i18n/Comments.properties}comments.label
+comments.none@ No comments@ {alfresco/renderers/i18n/CommentsList.properties}comments.none
+completed.label@ Successfully completed uploads@ Upload udf\u00f8rt@ {alfresco/upload/i18n/AlfUploadDisplay.properties}completed.label
+containerPicker.button.parentNav.label@ Go to parent folder@ {alfresco/pickers/i18n/ContainerListPicker.properties}containerPicker.button.parentNav.label
+containerPicker.data.failure.message@ We couldn't load the folders. Try refreshing your screen, or check with your Alfresco Administrator that the server is running.@ {alfresco/pickers/i18n/ContainerListPicker.properties}containerPicker.data.failure.message
+containerPicker.loading.data.message@ Loading folders...@ {alfresco/pickers/i18n/ContainerListPicker.properties}containerPicker.loading.data.message
+containerPicker.no.data.message@ No folders@ {alfresco/pickers/i18n/ContainerListPicker.properties}containerPicker.no.data.message
+containerPicker.rendering.data.message@ Loading folders...@ {alfresco/pickers/i18n/ContainerListPicker.properties}containerPicker.rendering.data.message
+contentService.basicMetadata.cancellation@ Cancel@ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.cancellation
+contentService.basicMetadata.confirmation@ OK@ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.confirmation
+contentService.basicMetadata.description.description@ @ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.description.description
+contentService.basicMetadata.description.label@ Description@ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.description.label
+contentService.basicMetadata.dialog.title@ Edit Properties: {0}@ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.dialog.title
+contentService.basicMetadata.name.description@ @ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.name.description
+contentService.basicMetadata.name.label@ Name@ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.name.label
+contentService.basicMetadata.title.description@ @ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.title.description
+contentService.basicMetadata.title.label@ Title@ {alfresco/services/i18n/ContentService.properties}contentService.basicMetadata.title.label
+contentService.delete.cancellation@ Cancel@ {alfresco/services/i18n/ContentService.properties}contentService.delete.cancellation
+contentService.delete.confirmation@ Delete@ {alfresco/services/i18n/ContentService.properties}contentService.delete.confirmation
+contentService.delete.dialog.title@ Confirm Deletion@ {alfresco/services/i18n/ContentService.properties}contentService.delete.dialog.title
+contentService.delete.success.message@ Delete successful@ {alfresco/services/i18n/ContentService.properties}contentService.delete.success.message
+contentService.no-location.uploader.dialog.title@ File Upload@ {alfresco/services/i18n/ContentService.properties}contentService.no-location.uploader.dialog.title
+contentService.no-location.uploader.file.picker.description@ Select the files you wish to upload@ {alfresco/services/i18n/ContentService.properties}contentService.no-location.uploader.file.picker.description
+contentService.no-location.uploader.file.picker.label@ Files@ {alfresco/services/i18n/ContentService.properties}contentService.no-location.uploader.file.picker.label
+contentService.no-location.uploader.location.picker.description@ Select a folder to upload to@ {alfresco/services/i18n/ContentService.properties}contentService.no-location.uploader.location.picker.description
+contentService.no-location.uploader.location.picker.label@ Upload to@ {alfresco/services/i18n/ContentService.properties}contentService.no-location.uploader.location.picker.label
+contentService.updater.dialog.comments@ Comments@ {alfresco/services/i18n/ContentService.properties}contentService.updater.dialog.comments
+contentService.updater.dialog.fileSelect.label@ Select a file to upload...@ {alfresco/services/i18n/ContentService.properties}contentService.updater.dialog.fileSelect.label
+contentService.updater.dialog.majorVersion.false.label@ Minor changes@ {alfresco/services/i18n/ContentService.properties}contentService.updater.dialog.majorVersion.false.label
+contentService.updater.dialog.majorVersion.label@ This version has@ {alfresco/services/i18n/ContentService.properties}contentService.updater.dialog.majorVersion.label
+contentService.updater.dialog.majorVersion.true.label@ Major changes@ {alfresco/services/i18n/ContentService.properties}contentService.updater.dialog.majorVersion.true.label
+contentService.updater.dialog.title@ Update file@ {alfresco/services/i18n/ContentService.properties}contentService.updater.dialog.title
+contentService.uploader.dialog.cancellation@ Cancel@ {alfresco/services/i18n/ContentService.properties}contentService.uploader.dialog.cancellation
+contentService.uploader.dialog.confirmation@ Upload@ {alfresco/services/i18n/ContentService.properties}contentService.uploader.dialog.confirmation
+contentService.uploader.dialog.fileSelect.label@ Select files to upload...@ {alfresco/services/i18n/ContentService.properties}contentService.uploader.dialog.fileSelect.label
+contentService.uploader.dialog.title@ Select files to upload@ {alfresco/services/i18n/ContentService.properties}contentService.uploader.dialog.title
+copyMoveService.copy.completeSuccess@ Copy completed successfully@ {alfresco/services/actions/i18n/CopyMoveService.properties}copyMoveService.copy.completeSuccess
+copyMoveService.copy.failure@ The file or folder couldn't be copied right now. Check it's not locked for editing and try again.@ {alfresco/services/actions/i18n/CopyMoveService.properties}copyMoveService.copy.failure
+copyMoveService.copy.partialSuccess@ Copy partially successful, the following files or folders couldn't be copied: {0}@ {alfresco/services/actions/i18n/CopyMoveService.properties}copyMoveService.copy.partialSuccess
+copyMoveService.move.completeSuccess@ Move completed successfully@ {alfresco/services/actions/i18n/CopyMoveService.properties}copyMoveService.move.completeSuccess
+copyMoveService.move.failure@ The file or folder couldn't be moved right now. Check it's not locked for editing and try again.@ {alfresco/services/actions/i18n/CopyMoveService.properties}copyMoveService.move.failure
+copyMoveService.move.partialSuccess@ Move partially successful, the following files or folders couldn't be moved: {0}@ {alfresco/services/actions/i18n/CopyMoveService.properties}copyMoveService.move.partialSuccess
+count@ {0} items ({1})@ {0} elementer ({1})@ {alfresco/reports/i18n/TopSiteContributorReport.properties}count
+count@ {0} items ({1})@ {0} elementer ({1})@ {alfresco/reports/i18n/SiteContentReport.properties}count
+create-content-menu-item.dialog.cancellation@ Cancel@ {alfresco/documentlibrary/i18n/_AlfCreateContentMenuItemMixin.properties}create-content-menu-item.dialog.cancellation
+create-content-menu-item.dialog.confirmation@ Create@ {alfresco/documentlibrary/i18n/_AlfCreateContentMenuItemMixin.properties}create-content-menu-item.dialog.confirmation
+create-content-menu-item.dialog.title@ Create Content@ {alfresco/documentlibrary/i18n/_AlfCreateContentMenuItemMixin.properties}create-content-menu-item.dialog.title
+create-site.creating@ Site is being created...@ {alfresco/services/i18n/SiteService.properties}create-site.creating
+create-site.dialog.description.label@ Description@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.description.label
+create-site.dialog.description.maxLength@ Use 512 characters or less for the description@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.description.maxLength
+create-site.dialog.moderated.description@ Site managers can control who joins the site@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.moderated.description
+create-site.dialog.moderated.label@ Moderated site membership@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.moderated.label
+create-site.dialog.name.label@ Name@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.name.label
+create-site.dialog.name.maxLength@ Use 256 characters or less for the site name@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.name.maxLength
+create-site.dialog.title@ Create Site@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.title
+create-site.dialog.type.collaboration@ Collaboration Site@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.type.collaboration
+create-site.dialog.type.label@ Type@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.type.label
+create-site.dialog.urlname.description@ This is part of the site address. Use numbers and letters only.@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.urlname.description
+create-site.dialog.urlname.label@ URL Name@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.urlname.label
+create-site.dialog.urlname.maxLength@ Use 72 characters or less for the URL name@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.urlname.maxLength
+create-site.dialog.urlname.regex@ Use characters a-z, A-Z, 0-9 and - only for a URL name.@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.urlname.regex
+create-site.dialog.visibility.label@ Visibility@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.visibility.label
+create-site.dialog.visibility.private@ Private@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.visibility.private
+create-site.dialog.visibility.public@ Public@ {alfresco/services/i18n/SiteService.properties}create-site.dialog.visibility.public
+create-site.failure.dialog.title@ We couldn't create the site@ {alfresco/services/i18n/SiteService.properties}create-site.failure.dialog.title
+create-site.label@ Create Site@ Opret site@ {alfresco/header/i18n/AlfSitesMenu.properties}create-site.label
+create.template.content.description.description@ @ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.description.description
+create.template.content.description.label@ Description@ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.description.label
+create.template.content.dialog.title@ Create Folder From Template@ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.dialog.title
+create.template.content.failure.message@ Could not create content based on template '{0}'@ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.failure.message
+create.template.content.failure.title@ Create Content Failed@ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.failure.title
+create.template.content.name.description@ @ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.name.description
+create.template.content.name.label@ Name@ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.name.label
+create.template.content.success@ Created content based on template '{0}'@ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.success
+create.template.content.title.description@ @ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.title.description
+create.template.content.title.label@ Title@ {alfresco/services/actions/i18n/CreateTemplateContentService.properties}create.template.content.title.label
+crudservice.generic.delete.cancellationButtonLabel@ No@ {alfresco/services/i18n/CrudService.properties}crudservice.generic.delete.cancellationButtonLabel
+crudservice.generic.delete.confirmationButtonLabel@ Yes@ {alfresco/services/i18n/CrudService.properties}crudservice.generic.delete.confirmationButtonLabel
+crudservice.generic.delete.prompt@ Are you sure you want to perform the deletion?@ {alfresco/services/i18n/CrudService.properties}crudservice.generic.delete.prompt
+crudservice.generic.delete.title@ Confirm Deletion@ {alfresco/services/i18n/CrudService.properties}crudservice.generic.delete.title
+crudservice.generic.failure.message@ Operation Failed@ {alfresco/services/i18n/CrudService.properties}crudservice.generic.failure.message
+crudservice.generic.success.message@ Operation Completed Successfully@ {alfresco/services/i18n/CrudService.properties}crudservice.generic.success.message
+date-format.am@ am@ {alfresco/core/i18n/TemporalUtils.properties}date-format.am
+date-format.dayDateMonth@ dddd, d mmmm@ {alfresco/core/i18n/TemporalUtils.properties}date-format.dayDateMonth
+date-format.default@ ddd d mmm yyyy HH:MM:ss@ {alfresco/core/i18n/TemporalUtils.properties}date-format.default
+date-format.defaultDateOnly@ ddd d mmm yyyy@ {alfresco/core/i18n/TemporalUtils.properties}date-format.defaultDateOnly
+date-format.fullDate@ dddd, d mmmm, yyyy@ {alfresco/core/i18n/TemporalUtils.properties}date-format.fullDate
+date-format.fullDateTime@ dddd, d mmmm, yyyy 'at' h:MM TT@ {alfresco/core/i18n/TemporalUtils.properties}date-format.fullDateTime
+date-format.longDate@ dd mmmm, yyyy@ {alfresco/core/i18n/TemporalUtils.properties}date-format.longDate
+date-format.longDateNoYear@ dd mmmm@ {alfresco/core/i18n/TemporalUtils.properties}date-format.longDateNoYear
+date-format.longTime@ h:MM:ss TT Z@ {alfresco/core/i18n/TemporalUtils.properties}date-format.longTime
+date-format.mediumDate@ d mmm, yyyy@ {alfresco/core/i18n/TemporalUtils.properties}date-format.mediumDate
+date-format.mediumDateNoYear@ d mmm@ {alfresco/core/i18n/TemporalUtils.properties}date-format.mediumDateNoYear
+date-format.mediumTime@ h:MM:ss TT@ {alfresco/core/i18n/TemporalUtils.properties}date-format.mediumTime
+date-format.monthYear@ mmmm yyyy@ {alfresco/core/i18n/TemporalUtils.properties}date-format.monthYear
+date-format.pm@ pm@ {alfresco/core/i18n/TemporalUtils.properties}date-format.pm
+date-format.rfc822@ EEE, dd MMM yyyy HH:mm:ss Z@ {alfresco/core/i18n/TemporalUtils.properties}date-format.rfc822
+date-format.shortDate@ d/m/yy@ {alfresco/core/i18n/TemporalUtils.properties}date-format.shortDate
+date-format.shortTime@ h:MM TT@ {alfresco/core/i18n/TemporalUtils.properties}date-format.shortTime
+date-unit.plural.day@ days@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.plural.day
+date-unit.plural.hour@ hours@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.plural.hour
+date-unit.plural.minute@ minutes@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.plural.minute
+date-unit.plural.month@ months@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.plural.month
+date-unit.plural.second@ seconds@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.plural.second
+date-unit.plural.week@ weeks@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.plural.week
+date-unit.plural.year@ years@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.plural.year
+date-unit.single.day@ day@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.single.day
+date-unit.single.hour@ hour@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.single.hour
+date-unit.single.minute@ minute@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.single.minute
+date-unit.single.month@ month@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.single.month
+date-unit.single.second@ second@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.single.second
+date-unit.single.week@ week@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.single.week
+date-unit.single.year@ year@ {alfresco/core/i18n/TemporalUtils.properties}date-unit.single.year
+days.initial@ S,M,T,W,T,F,S@ {alfresco/core/i18n/TemporalUtils.properties}days.initial
+days.long@ Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday@ {alfresco/core/i18n/TemporalUtils.properties}days.long
+days.medium@ Sun,Mon,Tue,Wed,Thu,Fri,Sat@ {alfresco/core/i18n/TemporalUtils.properties}days.medium
+days.short@ Su,Mo,Tu,We,Th,Fr,Sa@ {alfresco/core/i18n/TemporalUtils.properties}days.short
+default.label@ Create...@ Opret...@ {alfresco/documentlibrary/i18n/AlfCreateContentMenuBarPopup.properties}default.label
+default.off.label@ Off@ Slukket@ {alfresco/menus/i18n/AlfMenuBarToggle.properties}default.off.label
+default.on.label@ On@ T\u00e6ndt@ {alfresco/menus/i18n/AlfMenuBarToggle.properties}default.on.label
+default.title@ Information Panel@ {alfresco/layout/i18n/StickyPanel.properties}default.title
+description.label@ The following files are being uploaded@ F\u00f8lgende filer bliver uploadet@ {alfresco/upload/i18n/AlfUploadDisplay.properties}description.label
+details.banner.editing@ This file is locked by you for offline editing.@ Dette dokument er l\u00e5st af dig for offlineredigering.@ {alfresco/services/i18n/ActionService.properties}details.banner.editing
+details.banner.editing@ This document is locked by you for offline editing.@ Dette dokument er l\u00e5st af dig for offlineredigering.@ {alfresco/renderers/i18n/LockedBanner.properties}details.banner.editing
+details.banner.folder.editing@ This folder is locked by you for offline editing.@ Denne mappe er l\u00e5st af dig for offline redigering.@ {alfresco/services/i18n/ActionService.properties}details.banner.folder.editing
+details.banner.folder.editing@ This folder is locked by you for offline editing.@ Denne mappe er l\u00e5st af dig for offline redigering.@ {alfresco/renderers/i18n/LockedBanner.properties}details.banner.folder.editing
+details.banner.folder.lock-owner@ This folder is locked by you.@ Denne mappe er l\u00e5st af dig.@ {alfresco/services/i18n/ActionService.properties}details.banner.folder.lock-owner
+details.banner.folder.lock-owner@ This folder is locked by you.@ Denne mappe er l\u00e5st af dig.@ {alfresco/renderers/i18n/LockedBanner.properties}details.banner.folder.lock-owner
+details.banner.folder.locked@ This folder is locked by {0}.@ Denne mappe er l\u00e5st af {0}@ {alfresco/services/i18n/ActionService.properties}details.banner.folder.locked
+details.banner.folder.locked@ This folder is locked by {0}.@ Denne mappe er l\u00e5st af {0}@ {alfresco/renderers/i18n/LockedBanner.properties}details.banner.folder.locked
+details.banner.lock-owner@ This file is locked by you.@ Dette dokument er l\u00e5st af dig.@ {alfresco/services/i18n/ActionService.properties}details.banner.lock-owner
+details.banner.lock-owner@ This document is locked by you.@ Dette dokument er l\u00e5st af dig.@ {alfresco/renderers/i18n/LockedBanner.properties}details.banner.lock-owner
+details.banner.locked@ This file is locked by {0}.@ Dette dokument er l\u00e5st af {0}.@ {alfresco/services/i18n/ActionService.properties}details.banner.locked
+details.banner.locked@ This document is locked by {0}.@ Dette dokument er l\u00e5st af {0}.@ {alfresco/renderers/i18n/LockedBanner.properties}details.banner.locked
+details.banner.more-info@ More Info@ Mere information@ {alfresco/services/i18n/ActionService.properties}details.banner.more-info
+details.banner.sync-failed@ Last sync unsuccessful.@ Sidste synkronisering fejlede.@ {alfresco/services/i18n/ActionService.properties}details.banner.sync-failed
+details.banner.sync-transient-error@ There was a temporary sync issue.@ Midlertidig synkroniseringsfejl.@ {alfresco/services/i18n/ActionService.properties}details.banner.sync-transient-error
+details.categories.none@ No Categories@ Ingen kategorier@ {alfresco/renderers/i18n/Date.properties}details.categories.none
+details.created-by@ Created {0} by {1}@ Oprettet {0} af {1}@ {alfresco/renderers/i18n/Date.properties}details.created-by
+details.created-in-site@ Created {0} in {1}@ Oprettet {0} i {1}@ {alfresco/renderers/i18n/Date.properties}details.created-in-site
+details.description.none@ No Description@ Ingen beskrivelse@ {alfresco/renderers/i18n/Date.properties}details.description.none
+details.editing-started-by@ Editing started {0} by {1}@ Redigering startet {0} by {1}@ {alfresco/renderers/i18n/Date.properties}details.editing-started-by
+details.editing-started-in-site@ Editing started {0} in {1}@ Redigering startet {0} i {1}@ {alfresco/renderers/i18n/Date.properties}details.editing-started-in-site
+details.link-to@ Link to: {0}@ Link til: {0}@ {alfresco/renderers/i18n/Date.properties}details.link-to
+details.modified-by@ Modified {0} by {1}@ \u00c6ndret {0} af {1}@ {alfresco/renderers/i18n/Date.properties}details.modified-by
+details.modified-in-site@ Modified {0} in {1}@ \u00c6ndret {0} i {1}@ {alfresco/renderers/i18n/Date.properties}details.modified-in-site
+details.tags.none@ No Tags@ Ingen tags@ {alfresco/renderers/i18n/Date.properties}details.tags.none
+details.user.deleted@ ''{0}'' (Deleted User)@ ''{0}'' (slettet bruger)@ {alfresco/renderers/i18n/Date.properties}details.user.deleted
+dialogService.formDialog.cancel.button.label@ Cancel@ {alfresco/services/i18n/DialogService.properties}dialogService.formDialog.cancel.button.label
+dialogService.formDialog.ok.button.label@ OK@ {alfresco/services/i18n/DialogService.properties}dialogService.formDialog.ok.button.label
+dialogService.formDialog.repeat.button.label@ OK (and repeat)@ {alfresco/services/i18n/DialogService.properties}dialogService.formDialog.repeat.button.label
+dnd.drop.doclist.description@ Drag files from your desktop and drop them here to upload.@ Tr\u00e6k dine filer fra dit skrivebord hertil for at overf\u00f8re dem.@ {alfresco/services/i18n/ActionService.properties}dnd.drop.doclist.description
+dnd.drop.folder.description@ You can drop files onto folders.@ Du kan slippe filer ind i mapper.@ {alfresco/services/i18n/ActionService.properties}dnd.drop.folder.description
+dnd.drop.title@ Drag and drop to upload files@ Tr\u00e6k og slip for at overf\u00f8re filer!@ {alfresco/services/i18n/ActionService.properties}dnd.drop.title
+dnd.newfolder.description@ Create a folder@ Opret en mappe@ {alfresco/services/i18n/ActionService.properties}dnd.newfolder.description
+dnd.upload.description@ Upload files@ Overf\u00f8r filer@ {alfresco/services/i18n/ActionService.properties}dnd.upload.description
+dnd.upload.highlight.label@ Drop files here to upload to this location@ {alfresco/documentlibrary/i18n/_AlfDndDocumentUploadMixin.properties}dnd.upload.highlight.label
+dnd.upload.tooltip@ <p>You can also drag and drop files from your desktop into the Document Library.</p>\<p>To use drag and drop instead, close the uploader.</p>@ <p>Du kan tr\u00e6k og slippe filer ind i dokumentbiblioteket.</p><p>For at bruge tr\u00e6k og slip i stedet luk da overf\u00f8rsels dialogen forneden.</p>@ {alfresco/services/i18n/ActionService.properties}dnd.upload.tooltip
+doclist.data.failure.message@ We couldn't load the files. Try refreshing your screen, or check with your Alfresco Administrator that the server is running.@ Der opstod en fejl ved indl\u00e6sningen af dokumenterne@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.data.failure.message
+doclist.loading.data.message@ Loading...@ Henter dokumenter...@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.loading.data.message
+doclist.no.data.message@ There's nothing to display@ Der er ingen data at vise@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.no.data.message
+doclist.rendering.data.message@ View loading...@ Vent venligst mens visningen bliver renderet...@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.rendering.data.message
+doclist.view.detailed.label@ Detailed View@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.view.detailed.label
+doclist.view.filmstrip.label@ Filmstrip View@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.view.filmstrip.label
+doclist.view.gallery.label@ Gallery View@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.view.gallery.label
+doclist.view.simple.label@ Simple View@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.view.simple.label
+doclist.view.table.label@ Table View@ {alfresco/documentlibrary/i18n/AlfDocumentList.properties}doclist.view.table.label
+doclistview.no.data.message@ There are no documents in the current folder@ {alfresco/lists/views/i18n/AlfListView.properties}doclistview.no.data.message
+doclistview.no.data.message@ No items selected@ Ingen poster valgt@ {alfresco/pickers/i18n/PickedItems.properties}doclistview.no.data.message
+doclistview.rendering.error.message@ There was an error rendering the view@ {alfresco/lists/views/i18n/AlfListView.properties}doclistview.rendering.error.message
+documentlibrary.root.label@ Documents@ Dokumenter@ {alfresco/navigation/i18n/Tree.properties}documentlibrary.root.label
+documentlibrary.view.preference.add@ Set "{0}" as the default view for this folder@ {alfresco/documentlibrary/i18n/ViewPreferencesGroup.properties}documentlibrary.view.preference.add
+documentlibrary.view.preference.group@ View Preferences@ {alfresco/documentlibrary/i18n/ViewPreferencesGroup.properties}documentlibrary.view.preference.group
+documentlibrary.view.preference.remove@ Remove "{0}" as the default view for this folder@ {alfresco/documentlibrary/i18n/ViewPreferencesGroup.properties}documentlibrary.view.preference.remove
+droppedItemWrapper.delete.alt.text@ Delete the current item@ {alfresco/dnd/i18n/DroppedItemWrapper.properties}droppedItemWrapper.delete.alt.text
+droppedItemWrapper.down.alt.text@ Move item down a place@ {alfresco/dnd/i18n/DroppedItemWrapper.properties}droppedItemWrapper.down.alt.text
+droppedItemWrapper.edit.alt.text@ Edit the current item@ {alfresco/dnd/i18n/DroppedItemWrapper.properties}droppedItemWrapper.edit.alt.text
+droppedItemWrapper.up.alt.text@ Move item up a place@ {alfresco/dnd/i18n/DroppedItemWrapper.properties}droppedItemWrapper.up.alt.text
+edit-details.label.edit-metadata@ All Properties...@ Alle egenskaber...@ {alfresco/services/i18n/ActionService.properties}edit-details.label.edit-metadata
+edit-details.title@ Edit Properties: {0}@ Rediger egenskaber: {0}@ {alfresco/services/i18n/ActionService.properties}edit-details.title
+edit-site.dialog.title@ Edit Site Details@ {alfresco/services/i18n/SiteService.properties}edit-site.dialog.title
+edit-site.failure.dialog.title@ We couldn't save the site info@ {alfresco/services/i18n/SiteService.properties}edit-site.failure.dialog.title
+edit-site.saving@ Site details are being saved...@ {alfresco/services/i18n/SiteService.properties}edit-site.saving
+endDate@ To date@ Til:@ {alfresco/reports/i18n/TopSiteContributorReport.properties}endDate
+error.badpage@ That is not a valid page number@ Ugyldig sidenummer@ {alfresco/preview/i18n/AlfDocumentPreview.properties}error.badpage
+error.content@ The content cannot be displayed because it is not of type png, jpg, gif or swf.@ Indholdet kan ikke vises, fordi det ikke er af typen PNG, JPEG, GIF eller SWF.@ {alfresco/preview/i18n/AlfDocumentPreview.properties}error.content
+error.duplicateShortName@ We couldn't create the site because the URL is already used@ {alfresco/services/i18n/SiteService.properties}error.duplicateShortName
+error.error@ The content cannot be displayed due to an unknown error.@ Indholdet kan ikke vises pga. en ukendt fejl.@ {alfresco/preview/i18n/AlfDocumentPreview.properties}error.error
+error.incorrectpassword@ Incorrect password. Please try again.@ Ugyldigt password. Pr\u00f8v venligst igen.@ {alfresco/preview/i18n/AlfDocumentPreview.properties}error.incorrectpassword
+error.invalidpdf@ Invalid or corrupted PDF file@ Ugyldig eller korrupt PDF@ {alfresco/preview/i18n/AlfDocumentPreview.properties}error.invalidpdf
+error.io@ The preview could not be loaded from the server.@ Forh\u00e5ndsvisningen kunne ikke hentes fra serveren.@ {alfresco/preview/i18n/AlfDocumentPreview.properties}error.io
+error.pdfload@ Could not load PDF content@ Kunne ikke indl\u00e6se PDF indhold@ {alfresco/preview/i18n/AlfDocumentPreview.properties}error.pdfload
+error.viewerload@ Could not load the viewer component@ Kunne ikke indl\u00e6se visningskomponent@ {alfresco/preview/i18n/AlfDocumentPreview.properties}error.viewerload
+facet.filter.applied.alt-text@ The filter '{0}' has been applied to the search results.@ Filteret '{0}' er blevet anvendt p\u00e5 s\u00f8geresultaterne.@ {alfresco/search/i18n/FacetFilter.properties}facet.filter.applied.alt-text
+faceted-search.doc-lib.unavailable.description@ No Description@ {alfresco/search/i18n/AlfSearchResult.properties}faceted-search.doc-lib.unavailable.description
+faceted-search.doc-lib.value-prefix.description@ Description:@ {alfresco/search/i18n/AlfSearchResult.properties}faceted-search.doc-lib.value-prefix.description
+faceted-search.doc-lib.value-prefix.path@ In folder@ {alfresco/search/i18n/AlfSearchResult.properties}faceted-search.doc-lib.value-prefix.path
+faceted-search.doc-lib.value-prefix.site@ Site@ {alfresco/search/i18n/AlfSearchResult.properties}faceted-search.doc-lib.value-prefix.site
+faceted-search.doc-lib.value-prefix.size@ Size:@ {alfresco/search/i18n/AlfSearchResult.properties}faceted-search.doc-lib.value-prefix.size
+faceted-search.results-menu.results-found-patch@ {0} - results found@ {alfresco/html/i18n/Label.properties}faceted-search.results-menu.results-found-patch
+failed.label@ Upload failures@ Upload fejl@ {alfresco/upload/i18n/AlfUploadDisplay.properties}failed.label
+favourite.add.label@ Favourite@ Favorit@ {alfresco/renderers/i18n/Favourite.properties}favourite.add.label
+favourite.add.tooltip@ Add document to favourites@ Tilf\u00f8j dokument til favoritter@ {alfresco/renderers/i18n/Favourite.properties}favourite.add.tooltip
+favourite.remove.tooltip@ Remove document from favourites@ Fjern dokument fra favoritter@ {alfresco/renderers/i18n/Favourite.properties}favourite.remove.tooltip
+favourite.sites.label@ Favorites@ Favoritter@ {alfresco/header/i18n/AlfSitesMenu.properties}favourite.sites.label
+favourites.load.error@ Could Not Load Favorites@ Kunne ikke hente favoritter@ {alfresco/header/i18n/AlfSitesMenu.properties}favourites.load.error
+field.description.description@ A description of the field. The information provided will become 'hover help' for the field.@ Beskrivelse af feltet. Den givne informationen bliver 'hover hj\u00e6lp' for feltet.@ {alfresco/forms/creation/i18n/FormCreation.properties}field.description.description
+field.description.label@ Description@ Beskrivelse@ {alfresco/forms/creation/i18n/FormCreation.properties}field.description.label
+field.disablement.config.description@ Allows you to configure when some the field is disabled by creating rules based on other field values.@ Tillader dig at konfigurere hvorn\u00e5r et felt deaktiveres ved at skabe regler baseret p\u00e5 andre feltv\u00e6rdier.@ {alfresco/forms/creation/i18n/FormCreation.properties}field.disablement.config.description
+field.disablement.config.label@ Disablement configuration@ Deaktiveringskonfiguration@ {alfresco/forms/creation/i18n/FormCreation.properties}field.disablement.config.label
+field.label.description@ The label that identifies the field@ Etiketten som identificere feltet@ {alfresco/forms/creation/i18n/FormCreation.properties}field.label.description
+field.label.label@ Label@ Etiket@ {alfresco/forms/creation/i18n/FormCreation.properties}field.label.label
+field.name.description@ The name of the field@ Navnet p\u00e5 feltet@ {alfresco/forms/creation/i18n/FormCreation.properties}field.name.description
+field.name.label@ Field name@ Feltnavn@ {alfresco/forms/creation/i18n/FormCreation.properties}field.name.label
+field.options.description@ Add the options available to the form control.@ Tilf\u00f8j valgmulighederne tilg\u00e6ngelige for formularstyringen.@ {alfresco/forms/creation/i18n/FormCreation.properties}field.options.description
+field.options.label@ Options@ Valgmuligheder@ {alfresco/forms/creation/i18n/FormCreation.properties}field.options.label
+field.requirement.config.description@ Allows you to configure when some input must be provided for the field by creating rules based on other field values.@ Tillader dig at konfigurere hvorn\u00e5r indtastning skal gives ved at skabe regler baseret p\u00e5 andre feltv\u00e6rdier.@ {alfresco/forms/creation/i18n/FormCreation.properties}field.requirement.config.description
+field.requirement.config.label@ Requirement configuration@ Kravskonfiguration@ {alfresco/forms/creation/i18n/FormCreation.properties}field.requirement.config.label
+field.units.description@ A measurement of units relevant to the field, e.g. "seconds", "GB", "miles", etc.@ Relevant enhed for feltet f.eks. "sekunder", "GB", "km", osv.@ {alfresco/forms/creation/i18n/FormCreation.properties}field.units.description
+field.units.label@ Units label@ Enhedsetiket@ {alfresco/forms/creation/i18n/FormCreation.properties}field.units.label
+field.validation.config.description@ Configure the rules used to validate the field value@ Konfigurer reglerne som skal bruges til validering af feltv\u00e6rdien@ {alfresco/forms/creation/i18n/FormCreation.properties}field.validation.config.description
+field.validation.config.label@ Validation configuration@ Valideringskonfiguration@ {alfresco/forms/creation/i18n/FormCreation.properties}field.validation.config.label
+field.validation.errorMessage.description@ This is the error message that will be displayed when the field contains an invalid value@ Dette er fejlbeskeden som vises, n\u00e5r feltet indeholder en invalid v\u00e6rdi@ {alfresco/forms/creation/i18n/FormCreation.properties}field.validation.errorMessage.description
+field.validation.errorMessage.label@ Error message@ Fejlbesked@ {alfresco/forms/creation/i18n/FormCreation.properties}field.validation.errorMessage.label
+field.validation.regex.description@ A regular expression to use to validate the field value@ Regul\u00e6rtudtryk som skal bruges til at validere feltv\u00e6rdien@ {alfresco/forms/creation/i18n/FormCreation.properties}field.validation.regex.description
+field.validation.regex.label@ Regular Expression@ Regul\u00e6rtudtryk@ {alfresco/forms/creation/i18n/FormCreation.properties}field.validation.regex.label
+field.visibility.config.description@ Allows you to configure when the field can be seen by creating rules based on other field values.@ Tillader dig at konfigurere n\u00e5r feltet kan ses ved at skabe regler baseret p\u00e5 andre feltv\u00e6rdier.@ {alfresco/forms/creation/i18n/FormCreation.properties}field.visibility.config.description
+field.visibility.config.label@ Visibility configuration@ Synlighedskonfiguration@ {alfresco/forms/creation/i18n/FormCreation.properties}field.visibility.config.label
+filter-summary.clear-all.action@ Clear All@ {alfresco/lists/utilities/i18n/FilterSummary.properties}filter-summary.clear-all.action
+filter-summary.label@ Selected@ {alfresco/lists/utilities/i18n/FilterSummary.properties}filter-summary.label
+filter.classified.label@ Documents and Folders classified with "{0}"@ Dokumenter og mapper klassificeret med "{0}"@ {alfresco/navigation/i18n/CategoryTree.properties}filter.classified.label
+filter.description@ Set a logging filter that matches the output that you wish to see in the logs@ S\u00e6t et logningsfilter som passer til outputet som du \u00f8nsker at se i loggene@ {alfresco/services/i18n/LoggingService.properties}filter.description
+filter.label@ Logging filter@ Logningsfilter@ {alfresco/services/i18n/LoggingService.properties}filter.label
+filter.label.documents@ Documents@ Dokumenter@ {alfresco/documentlibrary/i18n/AlfDocumentFilters.properties}filter.label.documents
+filter.label.tags@ Tags@ Tags@ {alfresco/documentlibrary/i18n/AlfTagFilters.properties}filter.label.tags
+filter.tag.label@ {0} ({1})@ {0} ({1})@ {alfresco/documentlibrary/i18n/AlfTagFilters.properties}filter.tag.label
+filter.tagged.label@ Documents and Folders tagged with "{0}"@ Dokumenter og mapper tagget med "{0}"@ {alfresco/documentlibrary/i18n/AlfTagFilters.properties}filter.tagged.label
+filtered.list.filter.description@ Enter a value to filter by@ {alfresco/lists/i18n/AlfFilteredList.properties}filtered.list.filter.description
+filtered.list.filter.label@ Results Filter@ {alfresco/lists/i18n/AlfFilteredList.properties}filtered.list.filter.label
+filtered.list.filter.placeholder@ Filter by name@ {alfresco/lists/i18n/AlfFilteredList.properties}filtered.list.filter.placeholder
+filtered.list.filter.unitsLabel@ @ {alfresco/lists/i18n/AlfFilteredList.properties}filtered.list.filter.unitsLabel
+form.button.cancel.label@ Cancel@ Annuller@ {alfresco/forms/i18n/Form.properties}form.button.cancel.label
+form.button.ok.label@ OK@ Ok@ {alfresco/forms/i18n/Form.properties}form.button.ok.label
+form.button.ok.label.published@ Submitted@ {alfresco/forms/i18n/Form.properties}form.button.ok.label.published
+formValidation.date.error@ Enter a valid date@ {alfresco/forms/controls/i18n/FormControlValidationMixin.properties}formValidation.date.error
+formValidation.numerical.decimalPlaces0.error@ Number should be whole number@ {alfresco/forms/controls/i18n/FormControlValidationMixin.properties}formValidation.numerical.decimalPlaces0.error
+formValidation.numerical.decimalPlaces1.error@ Number should use exactly 1 decimal place@ {alfresco/forms/controls/i18n/FormControlValidationMixin.properties}formValidation.numerical.decimalPlaces1.error
+formValidation.numerical.decimalPlacesN.error@ Number should use exactly {0} decimal places@ {alfresco/forms/controls/i18n/FormControlValidationMixin.properties}formValidation.numerical.decimalPlacesN.error
+formValidation.numerical.error@ Enter a number@ {alfresco/forms/controls/i18n/FormControlValidationMixin.properties}formValidation.numerical.error
+formValidation.numericalRange.error@ Enter a number that's at least {0} and no more than {1}@ {alfresco/forms/controls/i18n/FormControlValidationMixin.properties}formValidation.numericalRange.error
+formValidation.numericalRange.max.error@ Enter a number that's no more than {0}@ {alfresco/forms/controls/i18n/FormControlValidationMixin.properties}formValidation.numericalRange.max.error
+formValidation.numericalRange.min.error@ Enter a number that's at least {0}@ {alfresco/forms/controls/i18n/FormControlValidationMixin.properties}formValidation.numericalRange.min.error
+header.menu.home.label@ Home@ Hjem@ {alfresco/header/i18n/AlfMenuBar.properties}header.menu.home.label
+header.menu.myfiles.label@ My Files@ Mine Dokumenter@ {alfresco/header/i18n/AlfMenuBar.properties}header.menu.myfiles.label
+header.menu.shared.label@ Shared Files@ Delte dokumenter@ {alfresco/header/i18n/AlfMenuBar.properties}header.menu.shared.label
+header.menu.sites.label@ Sites@ Sites@ {alfresco/header/i18n/AlfMenuBar.properties}header.menu.sites.label
+header.menu.tasks.label@ Tasks@ Opgaver@ {alfresco/header/i18n/AlfMenuBar.properties}header.menu.tasks.label
+header.menu.username.label@ User Name@ Brugernavn@ {alfresco/header/i18n/AlfMenuBar.properties}header.menu.username.label
+home.page.message@ Home page@ Min side@ {alfresco/accessibility/i18n/AccessibilityMenu.properties}home.page.message
+in.site@ {0} in {1}@ {alfresco/renderers/i18n/ActivitySummary.properties}in.site
+inline-edit.cancel.label@ Cancel@ {alfresco/renderers/i18n/InlineEditProperty.properties}inline-edit.cancel.label
+inline-edit.edit.altText@ Click to edit '{0}'@ {alfresco/renderers/i18n/InlineEditProperty.properties}inline-edit.edit.altText
+inline-edit.edit.altTextNoValue@ Click to edit@ {alfresco/renderers/i18n/InlineEditProperty.properties}inline-edit.edit.altTextNoValue
+inline-edit.edit.label@ Click to edit@ {alfresco/renderers/i18n/InlineEditProperty.properties}inline-edit.edit.label
+inline-edit.save.label@ Save@ {alfresco/renderers/i18n/InlineEditProperty.properties}inline-edit.save.label
+inlinehelp.alttext@ Click for more information about {0}.@ {alfresco/forms/controls/i18n/BaseFormControl.properties}inlinehelp.alttext
+inprogress.label@ Uploads currently in progress@ Uploads igang@ {alfresco/upload/i18n/AlfUploadDisplay.properties}inprogress.label
+invert.selection.label@ Invert@ Inverter@ {alfresco/documentlibrary/i18n/AlfSelectDocumentListItems.properties}invert.selection.label
+key.ctrl@ Ctrl@ Ctrl@ {alfresco/preview/i18n/AlfDocumentPreview.properties}key.ctrl
+key.meta@ \u2318@ \u2318@ {alfresco/preview/i18n/AlfDocumentPreview.properties}key.meta
+label@ {0}@ {0}@ {alfresco/charts/ccc/i18n/PieChart.properties}label
+label.browserReport@ Browser doesn''t support {0}@ Browseren supportere ikke {0}@ {alfresco/preview/i18n/AlfDocumentPreview.properties}label.browserReport
+label.copyright@ Supplied free of charge with <a href='http://www.alfresco.com/services/support/communityterms/#support'>no support</a>, <a href='http://www.alfresco.com/services/support/communityterms/#certification'@ Suppleret gratis med <a href='http://www.alfresco.com/services/support/communityterms/#support'>Ingen support</a>, <a href='http://www.alfresco.com/services/support/communityterms/#certification'>Inge@ {alfresco/footer/i18n/AlfShareFooter.properties}label.copyright
+label.copyright.enterprise@ Alfresco Software, Inc. \u00A9 2005-2016 All rights reserved.@ Alfresco Software, Inc. &copy; 2005-2014 Alle rettigheder forbeholdes.@ {alfresco/footer/i18n/AlfShareFooter.properties}label.copyright.enterprise
+label.error@ Couldn''t display content due to error in plugin ''{0}'': {1}@ Kunne ikke vise indhold pga. en fejl i tilf\u00f8jelse ''{0}'': {1}@ {alfresco/preview/i18n/AlfDocumentPreview.properties}label.error
+label.errorMissing@ Couldn''t display content due to missing plugin ''{0}''@ Kunne ikke vise indhold pga. en manglende tilf\u00f8jelse ''{0}''@ {alfresco/preview/i18n/AlfDocumentPreview.properties}label.errorMissing
+label.filter-description@ Same type as {0}@ Samme type som {0}@ {alfresco/services/i18n/ActionService.properties}label.filter-description
+label.licensedTo@ Licensed To:@ Licenseret til:@ {alfresco/footer/i18n/AlfShareFooter.properties}label.licensedTo
+label.noContent@ This document has no content.@ Dette dokument har intet indhold@ {alfresco/preview/i18n/AlfDocumentPreview.properties}label.noContent
+label.noFlash@ To view the preview please download the latest Flash Player from the<br/><a href="http://www.adobe.com/go/getflashplayer">Adobe Flash Player Download Center</a>.@ For at vise forh\u00e5ndsvisning v\u00e6r venlig at hente seneste Flash afspiller fra <br/><a href="http://www.adobe.com/go/getflashplayer">Adobe Flash Player Download Center</a>.@ {alfresco/preview/i18n/AlfDocumentPreview.properties}label.noFlash
+label.noPreview@ This document can''t be previewed.<br/><a class="theme-color-1" href="{0}">Click here to download it.</a>@ Dokumentet kan ikke forh\u00e5ndsvises.<br/><a class="theme-color-1" href="{0}">Klik for at hente det.</a>@ {alfresco/preview/i18n/AlfDocumentPreview.properties}label.noPreview
+label.noPreview.ios@ This document can''t be previewed.<br/><a class="theme-color-1" href="{0}">Click here to view it.</a>@ Dokumentet kan ikke forh\u00e5ndsvises.<br/><a class="theme-color-1" href="{0}">Klik for at vise det.</a>@ {alfresco/preview/i18n/AlfDocumentPreview.properties}label.noPreview.ios
+label.preparingPreviewer@ Preparing previewer...@ Forbereder forh\u00e5ndsvisning...@ {alfresco/preview/i18n/AlfDocumentPreview.properties}label.preparingPreviewer
+like.add.label@ Like@ Synes om@ {alfresco/renderers/i18n/Like.properties}like.add.label
+like.add.tooltip@ Like this document@ Synes om dette dokument@ {alfresco/renderers/i18n/Like.properties}like.add.tooltip
+like.remove.tooltip@ Unlike@ Fjern synes om@ {alfresco/renderers/i18n/Like.properties}like.remove.tooltip
+link.all@ All Files@ Alle dokumenter@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.all
+link.all.description@ All Files@ Alle dokumenter i dokumentbiblioteket@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.all.description
+link.download@ Download Original@ Hent original@ {alfresco/preview/i18n/AlfDocumentPreview.properties}link.download
+link.downloadPdf@ Download PDF@ Download PDF@ {alfresco/preview/i18n/AlfDocumentPreview.properties}link.downloadPdf
+link.editingMe@ I'm Editing@ Jeg redigerer@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.editingMe
+link.editingMe.description@ Files I'm Editing (working copies)@ Dokumenter jeg redigerer (arbejdskopier)@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.editingMe.description
+link.editingOthers@ Others are Editing@ Andre redigerer@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.editingOthers
+link.editingOthers.description@ Files Others are Editing (working copies)@ Dokumenter andre redigerer (arbejdskopier)@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.editingOthers.description
+link.favourites@ My Favorites@ Mine favoritter@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.favourites
+link.favourites.description@ My Favorite Files and Folders@ Mine favorit dokumenter og mapper@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.favourites.description
+link.filter.no-description@ No description for filter: {0}@ Ingen beskrivelse for filter: {0}@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.filter.no-description
+link.recentlyAdded@ Recently Added@ Nyligt tilf\u00f8jet@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.recentlyAdded
+link.recentlyAdded.description@ Files Added Recently@ Dokumenter tilf\u00f8jet for nyligt@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.recentlyAdded.description
+link.recentlyModified@ Recently Modified@ Nyligt \u00e6ndret@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.recentlyModified
+link.recentlyModified.description@ Files Recently Modified@ Dokumenter \u00e6ndret for nyligt@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.recentlyModified.description
+link.synced@ Synced Content@ Synkroniseret indhold@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.synced
+link.synced.description@ Files synchronized with the cloud@ Dokumenter synkroniseret med skyen@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.synced.description
+link.syncedErrors@ Synced with Errors@ Synkroniseret med fejl@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.syncedErrors
+link.syncedErrors.description@ Files with synchronization errors@ Dokumenter med synkroniseringsfejl@ {alfresco/documentlibrary/i18n/AlfDocumentFilter.properties}link.syncedErrors.description
+list.paginator.back.label@ < Back@ {alfresco/lists/i18n/Paginator.properties}list.paginator.back.label
+list.paginator.docsPerPageSelect.label@ Select documents per page...@ {alfresco/lists/i18n/Paginator.properties}list.paginator.docsPerPageSelect.label
+list.paginator.next.label@ Next >@ {alfresco/lists/i18n/Paginator.properties}list.paginator.next.label
+list.paginator.page.label@ {0}-{1} of {2}@ {alfresco/lists/i18n/Paginator.properties}list.paginator.page.label
+list.paginator.pageSelect.label@ Select page...@ {alfresco/lists/i18n/Paginator.properties}list.paginator.pageSelect.label
+list.paginator.perPage.label@ {0} per page@ {alfresco/lists/i18n/Paginator.properties}list.paginator.perPage.label
+list.paginator.perPage.label@ {0} per page@ {alfresco/lists/i18n/ResultsPerPageGroup.properties}list.paginator.perPage.label
+loading.label@ Loading...@ {alfresco/renderers/i18n/_XhrActionsMixin.properties}loading.label
+loading.label@ Loading...@ Henter...@ {alfresco/documentlibrary/i18n/AlfCreateTemplateContentMenu.properties}loading.label
+loading.label@ Loading...@ Henter...@ {alfresco/header/i18n/AlfSitesMenu.properties}loading.label
+loading.preview.message@ Loading preview...@ {alfresco/prototyping/i18n/Preview.properties}loading.preview.message
+logging.dataModel.title@ Data Model@ Data Model@ {alfresco/services/i18n/LoggingService.properties}logging.dataModel.title
+logging.preferences.title@ Logging Preferences@ Logningspr\u00e6ferencer@ {alfresco/services/i18n/LoggingService.properties}logging.preferences.title
+logging.pubSubLog.title@ Pub/Sub Log@ Pub/Sub Log@ {alfresco/services/i18n/LoggingService.properties}logging.pubSubLog.title
+logo.alt.text@ Logo image@ {alfresco/logo/i18n/Logo.properties}logo.alt.text
+menu.label@ By Templated Node...@ Med skabelon node...@ {alfresco/documentlibrary/i18n/AlfCreateTemplateContentMenu.properties}menu.label
+menu.label@ Sites@ Sites@ {alfresco/header/i18n/AlfSitesMenu.properties}menu.label
+menu.load.error@ Could Not Load Menu@ Kunne ikke hente menuen@ {alfresco/header/i18n/AlfSitesMenu.properties}menu.load.error
+menu.select@ Select@ V\u00e6lg@ {alfresco/services/i18n/ActionService.properties}menu.select
+menu.select.all@ All@ Alle@ {alfresco/services/i18n/ActionService.properties}menu.select.all
+menu.select.documents@ Files@ Dokumenter@ {alfresco/services/i18n/ActionService.properties}menu.select.documents
+menu.select.folders@ Folders@ Mapper@ {alfresco/services/i18n/ActionService.properties}menu.select.folders
+menu.select.invert@ Invert Selection@ Inverter selektion@ {alfresco/services/i18n/ActionService.properties}menu.select.invert
+menu.select.none@ None@ Ingen@ {alfresco/services/i18n/ActionService.properties}menu.select.none
+menubarselectitems.all.selected@ You have all items selected. Click this icon to deselect all.@ {alfresco/menus/i18n/AlfMenuBarSelectItems.properties}menubarselectitems.all.selected
+menubarselectitems.none.selected@ You have no items selected. Click this icon to select all.@ {alfresco/menus/i18n/AlfMenuBarSelectItems.properties}menubarselectitems.none.selected
+menubarselectitems.some.selected@ You have some items selected. Click this icon to select all.@ {alfresco/menus/i18n/AlfMenuBarSelectItems.properties}menubarselectitems.some.selected
+message.become-manager@ Requesting to grant Site Manager access to site {0}...@ Foresp\u00f8rger p\u00e5 at f\u00e5 site ansvarlig adgnag til site {0}...@ {alfresco/services/i18n/SiteService.properties}message.become-manager
+message.become-manager-failure@ We couldn't grant Site Manager access@ Kunne ikke tillade site ansvarlig adgang@ {alfresco/services/i18n/SiteService.properties}message.become-manager-failure
+message.become-manager-success@ Site Manager access granted@ Site ansvarlig adgang tilladt@ {alfresco/services/i18n/SiteService.properties}message.become-manager-success
+message.cancel-join-request-success@ Successfully cancelled request to join site {0}@ {alfresco/services/i18n/SiteService.properties}message.cancel-join-request-success
+message.delete-site-confirm-title@ Delete Site@ Bekr\u00e6ft sletning af site@ {alfresco/services/i18n/SiteService.properties}message.delete-site-confirm-title
+message.delete-site-prompt@ If you delete site '{0}' all its content will also be deleted?@ Er du sikker p\u00e5 at du vil slette sitet '{0}'?@ {alfresco/services/i18n/SiteService.properties}message.delete-site-prompt
+message.edit-offline.failure@ You can't edit '{0}'.@ Du kan ikke redigere ''{0}''.@ {alfresco/services/i18n/ActionService.properties}message.edit-offline.failure
+message.edit-offline.success@ '{0}' can now be edited@ ''{0}'' kan nu redigeres@ {alfresco/services/i18n/ActionService.properties}message.edit-offline.success
+message.homePage.failure@ We couldn't update the home page.@ {alfresco/services/i18n/UserService.properties}message.homePage.failure
+message.homePage.success@ Home page successfully updated.@ {alfresco/services/i18n/UserService.properties}message.homePage.success
+message.join-failure@ We couldn't add user {0} to site {1}.@ Kunne ikke tilf\u00f8je bruger {0} til site {1}.@ {alfresco/services/i18n/SiteService.properties}message.join-failure
+message.joining@ Adding user {0} to site {1}...@ Tilf\u00f8j bruger {0} til site {1}...@ {alfresco/services/i18n/SiteService.properties}message.joining
+message.leave@ Leave Site ''{0}''@ Forlad site ''{0}''@ {alfresco/services/i18n/SiteService.properties}message.leave
+message.leave-failure@ We couldn't remove user {0} from site {1}. There must be at least one Site Manager for a site.@ Kunne ikke fjerne bruger {0} fra site {1} Et site kr\u00e6ver minimum en site ansvarlig.@ {alfresco/services/i18n/SiteService.properties}message.leave-failure
+message.leave-site-prompt@ Are you sure you want to permanently leave the site ''{0}''? You'll no longer be a member of this site.@ Er du sikker p\u00e5 at du vil forlade site ''{0}'' for altid? Du vil ikke l\u00e6ngere v\u00e6re medlem af dette site.@ {alfresco/services/i18n/SiteService.properties}message.leave-site-prompt
+message.leaving@ Removing user {0} from site {1}...@ Fjerner bruger {0} fra site {1}...@ {alfresco/services/i18n/SiteService.properties}message.leaving
+message.request-join-failure@ We couldn't make the request to add user {0} to site {1}.@ Kunne ikke foretage foresp\u00f8rgsel p\u00e5 at tilf\u00f8je bruger {0} til site {1}.@ {alfresco/services/i18n/SiteService.properties}message.request-join-failure
+message.request-join-site-failure@ The request to join the site failed@ {alfresco/services/i18n/SiteService.properties}message.request-join-site-failure
+message.request-join-site-pending-failure@ A request to join this site is already pending@ {alfresco/services/i18n/SiteService.properties}message.request-join-site-pending-failure
+message.request-join-success@ Request to join site {1} successfully sent. You'll now be returned to your personal dashboard.@ Foresp\u00f8rg p\u00e5 deltagelse i site {1} blev afsende. Du vil nu returnere til din personlige side.@ {alfresco/services/i18n/SiteService.properties}message.request-join-success
+message.request-join-success-title@ Request Sent@ {alfresco/services/i18n/SiteService.properties}message.request-join-success-title
+message.request-joining@ Requesting to add user {0} to site {1}...@ Foresp\u00f8rger p\u00e5 at tilf\u00f8je bruger {0} til site {1}...@ {alfresco/services/i18n/SiteService.properties}message.request-joining
+message.simple-workflow.approved@ File marked as approved@ {alfresco/services/actions/i18n/WorkflowService.properties}message.simple-workflow.approved
+message.simple-workflow.failed@ Workflow action couldn't be completed.@ {alfresco/services/actions/i18n/WorkflowService.properties}message.simple-workflow.failed
+message.simple-workflow.failure@ Workflow action couldn't be completed.@ {alfresco/services/actions/i18n/WorkflowService.properties}message.simple-workflow.failure
+message.simple-workflow.rejected@ File marked as rejected@ {alfresco/services/actions/i18n/WorkflowService.properties}message.simple-workflow.rejected
+message.status.failure@ We couldn't update the status.@ Kunne ikke opdatere status.@ {alfresco/services/i18n/UserService.properties}message.status.failure
+message.status.failure@ Couldn't update status.@ Kunne ikke opdatere status.@ {alfresco/header/i18n/CurrentUserStatus.properties}message.status.failure
+message.status.success@ Status successfully updated.@ Status opdatering lykkedes.@ {alfresco/services/i18n/UserService.properties}message.status.success
+message.status.success@ Status successfully updated.@ Status opdatering lykkedes.@ {alfresco/header/i18n/CurrentUserStatus.properties}message.status.success
+months.long@ January,February,March,April,May,June,July,August,September,October,November,December@ {alfresco/core/i18n/TemporalUtils.properties}months.long
+months.short@ Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec@ {alfresco/core/i18n/TemporalUtils.properties}months.short
+more.activities@ {0} more@ {alfresco/renderers/i18n/ActivitySummary.properties}more.activities
+moreinfo.altText.label@ Click to show more information@ {alfresco/renderers/i18n/MoreInfo.properties}moreinfo.altText.label
+moreinfo.altTextWithContext.label@ Click to show more information about {0}@ {alfresco/renderers/i18n/MoreInfo.properties}moreinfo.altTextWithContext.label
+moreinfo.invalid.name@ Name contains invalid characters (the characters " * \ < > ? / : | are not allowed)@ {alfresco/renderers/i18n/MoreInfo.properties}moreinfo.invalid.name
+msg.noOutline@ No outline is available@ Ingen skitse tilg\u00e6ngelig@ {alfresco/preview/i18n/AlfDocumentPreview.properties}msg.noOutline
+multi.element.value.description@ Enter a value@ Indtast en v\u00e6rdi@ {alfresco/forms/controls/i18n/MultipleEntryElement.properties}multi.element.value.description
+multi.element.value.label@ Value@ V\u00e6rdi@ {alfresco/forms/controls/i18n/MultipleEntryElement.properties}multi.element.value.label
+multi.kvp.key.description@ Enter a display label for the item@ Indtast en visningsetiket for post@ {alfresco/forms/controls/i18n/MultipleKeyValuePairElement.properties}multi.kvp.key.description
+multi.kvp.key.label@ Label@ Etiket@ {alfresco/forms/controls/i18n/MultipleKeyValuePairElement.properties}multi.kvp.key.label
+multi.kvp.value.description@ Enter the actual value of the item@ Indtast den aktuelle v\u00e6rdi for post@ {alfresco/forms/controls/i18n/MultipleKeyValuePairElement.properties}multi.kvp.value.description
+multi.kvp.value.label@ Value@ V\u00e6rdi@ {alfresco/forms/controls/i18n/MultipleKeyValuePairElement.properties}multi.kvp.value.label
+multiple-entry.add@ Add a new entry@ {alfresco/forms/controls/i18n/MultipleEntryCreator.properties}multiple-entry.add
+multiple-entry.cancel@ Cancel editing the current entry@ {alfresco/forms/controls/i18n/MultipleEntryCreator.properties}multiple-entry.cancel
+multiple-entry.delete@ Delete the current entry@ {alfresco/forms/controls/i18n/MultipleEntryCreator.properties}multiple-entry.delete
+multiple-entry.edit@ Edit the current entry@ {alfresco/forms/controls/i18n/MultipleEntryCreator.properties}multiple-entry.edit
+multiple-entry.save@ Save the current entry@ {alfresco/forms/controls/i18n/MultipleEntryCreator.properties}multiple-entry.save
+multiselect.loading@ Loading ...@ {alfresco/forms/controls/i18n/MultiSelect.properties}multiselect.loading
+multiselect.noresults@ No results found for "{0}"@ {alfresco/forms/controls/i18n/MultiSelect.properties}multiselect.noresults
+my-files.root.label@ My Files@ Mine Dokumenter@ {alfresco/navigation/i18n/Tree.properties}my-files.root.label
+my-sites.label@ My Sites@ Mine sites@ {alfresco/header/i18n/AlfSitesMenu.properties}my-sites.label
+next-arrow.alt-text@ Next@ {alfresco/lists/views/layouts/i18n/Carousel.properties}next-arrow.alt-text
+no.description.message@ No description@ Ingen beskrivelse@ {alfresco/renderers/i18n/Property.properties}no.description.message
+no.favourites.label@ No Favorites@ Ingen favoritter@ {alfresco/header/i18n/AlfSitesMenu.properties}no.favourites.label
+no.items.title@ No content items@ Ingen indholdsposter@ {alfresco/services/i18n/ActionService.properties}no.items.title
+no.property.message@ No property for: "{0}"@ Ingen egenskab for: "{0}"@ {alfresco/renderers/i18n/Property.properties}no.property.message
+no.tags.message@ No tags@ Ingen tags@ {alfresco/renderers/i18n/Property.properties}no.tags.message
+no.templates.label@ No Templates Available@ Ingen skabeloner tilg\u00e6ngelige@ {alfresco/documentlibrary/i18n/AlfCreateTemplateContentMenu.properties}no.templates.label
+no.title.message@ No title@ {alfresco/renderers/i18n/Property.properties}no.title.message
+notification.ok.label@ OK@ {alfresco/services/i18n/NotificationService.properties}notification.ok.label
+notification.prompt.title@ Notification@ {alfresco/services/i18n/NotificationService.properties}notification.prompt.title
+org.alfresco.blog.post-created@ {1} created blog post {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.blog.post-created
+org.alfresco.blog.post-deleted@ {1} deleted blog post {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.blog.post-deleted
+org.alfresco.blog.post-updated@ {1} updated blog post {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.blog.post-updated
+org.alfresco.calendar.event-created@ {1} created calendar event {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.calendar.event-created
+org.alfresco.calendar.event-deleted@ {1} deleted calendar event {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.calendar.event-deleted
+org.alfresco.calendar.event-updated@ {1} updated calendar event {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.calendar.event-updated
+org.alfresco.comments.comment-created@ {1} commented on {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.comments.comment-created
+org.alfresco.comments.comment-deleted@ {1} deleted a comment from {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.comments.comment-deleted
+org.alfresco.comments.comment-updated@ {1} updated comment on {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.comments.comment-updated
+org.alfresco.datalists.list-created@ {1} created data list {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.datalists.list-created
+org.alfresco.datalists.list-deleted@ {1} deleted data list {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.datalists.list-deleted
+org.alfresco.datalists.list-updated@ {1} updated data list {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.datalists.list-updated
+org.alfresco.discussions.post-created@ {1} started discussion {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.discussions.post-created
+org.alfresco.discussions.post-deleted@ {1} deleted discussion {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.discussions.post-deleted
+org.alfresco.discussions.post-updated@ {1} updated discussion {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.discussions.post-updated
+org.alfresco.discussions.reply-created@ {1} replied to the discussion {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.discussions.reply-created
+org.alfresco.discussions.reply-updated@ {1} updated a reply to {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.discussions.reply-updated
+org.alfresco.documentlibrary.file-added@ {1} added file {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.file-added
+org.alfresco.documentlibrary.file-created@ {1} created file {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.file-created
+org.alfresco.documentlibrary.file-deleted@ {1} deleted file {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.file-deleted
+org.alfresco.documentlibrary.file-downloaded@ {1} downloaded file {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.file-downloaded
+org.alfresco.documentlibrary.file-liked@ {1} liked file {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.file-liked
+org.alfresco.documentlibrary.file-previewed@ {1} previewed file {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.file-previewed
+org.alfresco.documentlibrary.file-updated@ {1} updated file {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.file-updated
+org.alfresco.documentlibrary.files-added@ {1} added {0} files@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.files-added
+org.alfresco.documentlibrary.files-deleted@ {1} deleted {0} files@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.files-deleted
+org.alfresco.documentlibrary.files-updated@ {1} updated {0} files@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.files-updated
+org.alfresco.documentlibrary.folder-added@ {1} added folder {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.folder-added
+org.alfresco.documentlibrary.folder-deleted@ {1} deleted folder {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.folder-deleted
+org.alfresco.documentlibrary.folder-liked@ {1} liked folder {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.folder-liked
+org.alfresco.documentlibrary.folders-added@ {1} added {0} folders@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.folders-added
+org.alfresco.documentlibrary.folders-deleted@ {1} deleted {0} folders@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.folders-deleted
+org.alfresco.documentlibrary.inline-edit@ {1} edited file {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.documentlibrary.inline-edit
+org.alfresco.links.link-created@ {1} created link {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.links.link-created
+org.alfresco.links.link-deleted@ {1} deleted link {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.links.link-deleted
+org.alfresco.links.link-updated@ {1} updated link {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.links.link-updated
+org.alfresco.profile.status-changed@ {1}: {2}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.profile.status-changed
+org.alfresco.site.group-added@ {1} group added to site {4} with role {2}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.site.group-added
+org.alfresco.site.group-removed@ {1} group removed from site {4}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.site.group-removed
+org.alfresco.site.group-role-changed@ {1} group role changed to {2}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.site.group-role-changed
+org.alfresco.site.liked@ {1} liked site {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.site.liked
+org.alfresco.site.user-joined@ {1} joined site {4} with role {2}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.site.user-joined
+org.alfresco.site.user-left@ {1} left site {4}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.site.user-left
+org.alfresco.site.user-role-changed@ {1} role changed to {2}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.site.user-role-changed
+org.alfresco.subscriptions.followed@ {1} is now following {5}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.subscriptions.followed
+org.alfresco.subscriptions.subscribed@ {1} has subscribed to {2}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.subscriptions.subscribed
+org.alfresco.wiki.page-created@ {1} created wiki page {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.wiki.page-created
+org.alfresco.wiki.page-deleted@ {1} deleted wiki page {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.wiki.page-deleted
+org.alfresco.wiki.page-edited@ {1} updated wiki page {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.wiki.page-edited
+org.alfresco.wiki.page-renamed@ {1} renamed wiki page from {2} to {0}@ {alfresco/renderers/i18n/ActivitySummary.properties}org.alfresco.wiki.page-renamed
+other.options@ You can also...@ Du kan ogs\u00e5...@ {alfresco/services/i18n/ActionService.properties}other.options
+page.creation.failure@ Failed to update page "{0}"@ Mislykkedes at opdatere side "{0}"@ {alfresco/services/i18n/PageService.properties}page.creation.failure
+page.creation.success@ Successfully updated page "{0}"@ Lykkedes at opdatere side "{0}"@ {alfresco/services/i18n/PageService.properties}page.creation.success
+page.update.failure@ Failed to update page "{0}"@ Mislykkedes at opdatere side "{0}"@ {alfresco/services/i18n/PageService.properties}page.update.failure
+page.update.success@ Successfully updated page "{0}"@ Lykkedes at opdatere side "{0}"@ {alfresco/services/i18n/PageService.properties}page.update.success
+pdfjs.download.menu.label@ Download@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.download.menu.label
+pdfjs.download.menu.title@ Click to see the options for downloading the file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.download.menu.title
+pdfjs.download.original.label@ Download Original@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.download.original.label
+pdfjs.download.original.title@ Click to download the original file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.download.original.title
+pdfjs.download.pdf-screen.title@ Click to download a PDF version of the file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.download.pdf-screen.title
+pdfjs.download.pdf.label@ Download PDF@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.download.pdf.label
+pdfjs.error.invalidpdf@ The PDF file is invalid or corrupt@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.error.invalidpdf
+pdfjs.error.pdfload@ We couldn't load the PDF file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.error.pdfload
+pdfjs.error.pdfpassword@ You need the correct password to open this PDF@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.error.pdfpassword
+pdfjs.link.description@ Copy this link to share the file with others@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.link.description
+pdfjs.link.hide.label@ Hide link options@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.link.hide.label
+pdfjs.link.hide.title@ Click to hide link options@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.link.hide.title
+pdfjs.link.label@ Link to file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.link.label
+pdfjs.link.show.label@ Show link options@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.link.show.label
+pdfjs.link.show.title@ Click to show options for generating and copying links to the current page in the file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.link.show.title
+pdfjs.link.update.label@ Update link for current page@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.link.update.label
+pdfjs.maximise.full-screen.label@ Full Screen@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.maximise.full-screen.label
+pdfjs.maximise.full-screen.title@ Click to make the viewer take up the entire screen@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.maximise.full-screen.title
+pdfjs.maximise.full-window.label@ Full Window@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.maximise.full-window.label
+pdfjs.maximise.full-window.title@ Click to make the viewer take up the entire browser window@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.maximise.full-window.title
+pdfjs.maximise.menu.label@ Maximise@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.maximise.menu.label
+pdfjs.maximise.menu.title@ Click to see the options for maximising the view.@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.maximise.menu.title
+pdfjs.page.next.label@ Next@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.next.label
+pdfjs.page.next.title@ Click to view the next page@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.next.title
+pdfjs.page.previous.label@ Previous@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.previous.label
+pdfjs.page.previous.title@ Click to view the previous page@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.previous.title
+pdfjs.page.set.dialog.cancellation@ Cancel@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.set.dialog.cancellation
+pdfjs.page.set.dialog.confirmation@ OK@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.set.dialog.confirmation
+pdfjs.page.set.dialog.title@ Set Page@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.set.dialog.title
+pdfjs.page.set.label@ Go to Page@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.set.label
+pdfjs.page.set.textbox.description@ Enter the number of the page to jump to@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.set.textbox.description
+pdfjs.page.set.textbox.label@ Page Number@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.set.textbox.label
+pdfjs.page.set.title@ Click to jump to another page in the file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.page.set.title
+pdfjs.password.dialog.cancellation@ Cancel@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.password.dialog.cancellation
+pdfjs.password.dialog.confirmation@ Confirm@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.password.dialog.confirmation
+pdfjs.password.dialog.password.description@ A password is required to open this PDF@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.password.dialog.password.description
+pdfjs.password.dialog.password.label@ Password@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.password.dialog.password.label
+pdfjs.password.dialog.title.incorrect@ Correct password required@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.password.dialog.title.incorrect
+pdfjs.password.dialog.title.required@ Password required@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.password.dialog.title.required
+pdfjs.search.find.label@ Find@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.find.label
+pdfjs.search.find.next.label@ Find Next@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.find.next.label
+pdfjs.search.find.next.title@ Click to find the next search term match in the file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.find.next.title
+pdfjs.search.find.previous.label@ Find Previous@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.find.previous.label
+pdfjs.search.find.previous.title@ Click to find the previous search term match in the file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.find.previous.title
+pdfjs.search.hide.label@ Hide search options@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.hide.label
+pdfjs.search.hide.title@ Click to hide search options@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.hide.title
+pdfjs.search.highlight-all.label@ Highlight All Matches@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.highlight-all.label
+pdfjs.search.highlight-all.title@ Click to highlight all the search term matches in the file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.highlight-all.title
+pdfjs.search.highlight-one.label@ Hightlight Current Match@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.highlight-one.label
+pdfjs.search.highlight-one.title@ Click to highlight only the current search term match in the file@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.highlight-one.title
+pdfjs.search.ignore-case.label@ Ignore Case@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.ignore-case.label
+pdfjs.search.ignore-case.title@ Click to ignore the case of the search term@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.ignore-case.title
+pdfjs.search.match-case.label@ Match Case@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.match-case.label
+pdfjs.search.match-case.title@ Click to only match the exact case of the search term@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.match-case.title
+pdfjs.search.show.label@ Show search options@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.show.label
+pdfjs.search.show.title@ Click to reveal options for searching the document@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.search.show.title
+pdfjs.sidebar.hide.label@ Hide Sidebar@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.sidebar.hide.label
+pdfjs.sidebar.hide.title@ Click to hide the sidebar@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.sidebar.hide.title
+pdfjs.sidebar.outline.title@ Outline@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.sidebar.outline.title
+pdfjs.sidebar.show.label@ Show Sidebar@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.sidebar.show.label
+pdfjs.sidebar.show.title@ Click to show a sidebar containing thumbnail and outline views@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.sidebar.show.title
+pdfjs.sidebar.thumbnails.title@ Thumbnails@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.sidebar.thumbnails.title
+pdfjs.zoom.100.title@ Set the preview size to 100%@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.100.title
+pdfjs.zoom.125.title@ Set the preview size to 125%@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.125.title
+pdfjs.zoom.150.title@ Set the preview size to 150%@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.150.title
+pdfjs.zoom.200.title@ Set the preview size to 200%@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.200.title
+pdfjs.zoom.25.title@ Set the preview size to 25%@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.25.title
+pdfjs.zoom.400.title@ Set the preview size to 400%@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.400.title
+pdfjs.zoom.50.title@ Set the preview size to 50%@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.50.title
+pdfjs.zoom.75.title@ Set the preview size to 75%@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.75.title
+pdfjs.zoom.auto.label@ Auto@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.auto.label
+pdfjs.zoom.auto.title@ Automatically select the most appropriate preview size.@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.auto.title
+pdfjs.zoom.in.label@ Zoom In@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.in.label
+pdfjs.zoom.in.title@ Click to increase the size of the preview@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.in.title
+pdfjs.zoom.out.label@ Zoom Out@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.out.label
+pdfjs.zoom.out.title@ Click to reduce the size of the preview@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.out.title
+pdfjs.zoom.page-fit.label@ Page Fit@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.page-fit.label
+pdfjs.zoom.page-fit.title@ Set the viewer to show the full height of a single page@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.page-fit.title
+pdfjs.zoom.page-width.label@ Page Width@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.page-width.label
+pdfjs.zoom.page-width.title@ Set the viewer to show the full width of a single page@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.page-width.title
+pdfjs.zoom.select.title@ Select from a number of preset preview sizes@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.select.title
+pdfjs.zoom.two-page-fit.label@ Two Page Fit@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.two-page-fit.label
+pdfjs.zoom.two-page-fit.title@ Set the viewer to show the full height of two pages@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.two-page-fit.title
+pdfjs.zoom.two-page-width.label@ Two Page Width@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.two-page-width.label
+pdfjs.zoom.two-page-width.title@ Set the viewer to show the full width of two pages@ {alfresco/preview/PdfJs/i18n/PdfJs.properties}pdfjs.zoom.two-page-width.title
+picker.add.label@ Add@ {alfresco/pickers/i18n/Picker.properties}picker.add.label
+picker.add.label@ Add@ {alfresco/forms/controls/i18n/Picker.properties}picker.add.label
+picker.allSites.label@ All Sites@ {alfresco/pickers/i18n/Picker.properties}picker.allSites.label
+picker.cancel.label@ Cancel@ {alfresco/pickers/i18n/Picker.properties}picker.cancel.label
+picker.cancel.label@ Cancel@ {alfresco/forms/controls/i18n/Picker.properties}picker.cancel.label
+picker.favouriteSites.label@ Favorite Sites@ {alfresco/pickers/i18n/Picker.properties}picker.favouriteSites.label
+picker.favouriteSites.label@ Favorite Sites@ {alfresco/forms/controls/i18n/Picker.properties}picker.favouriteSites.label
+picker.myFiles.label@ My Files@ {alfresco/pickers/i18n/Picker.properties}picker.myFiles.label
+picker.myFiles.label@ My Files@ {alfresco/forms/controls/i18n/Picker.properties}picker.myFiles.label
+picker.ok.label@ OK@ {alfresco/pickers/i18n/Picker.properties}picker.ok.label
+picker.ok.label@ OK@ {alfresco/forms/controls/i18n/Picker.properties}picker.ok.label
+picker.pickedItems.label@ Selected Items@ {alfresco/pickers/i18n/Picker.properties}picker.pickedItems.label
+picker.recentSites.label@ Recent Sites@ {alfresco/pickers/i18n/Picker.properties}picker.recentSites.label
+picker.recentSites.label@ Recent Sites@ {alfresco/forms/controls/i18n/Picker.properties}picker.recentSites.label
+picker.removeAll.label@ Remove All@ {alfresco/pickers/i18n/Picker.properties}picker.removeAll.label
+picker.removeAll.label@ Remove All@ {alfresco/forms/controls/i18n/Picker.properties}picker.removeAll.label
+picker.repository.label@ Repository@ {alfresco/pickers/i18n/Picker.properties}picker.repository.label
+picker.repository.label@ Repository@ {alfresco/forms/controls/i18n/Picker.properties}picker.repository.label
+picker.select.title@ Select...@ {alfresco/pickers/i18n/Picker.properties}picker.select.title
+picker.select.title@ Select...@ {alfresco/forms/controls/i18n/Picker.properties}picker.select.title
+picker.sharedFiles.label@ Shared Files@ {alfresco/pickers/i18n/Picker.properties}picker.sharedFiles.label
+picker.sharedFiles.label@ Shared Files@ {alfresco/forms/controls/i18n/Picker.properties}picker.sharedFiles.label
+picker.subPickers.label@ Destination@ {alfresco/pickers/i18n/Picker.properties}picker.subPickers.label
+post.button.label@ Post Status@ Udgiv status@ {alfresco/header/i18n/CurrentUserStatus.properties}post.button.label
+prev-arrow.alt-text@ Previous@ {alfresco/lists/views/layouts/i18n/Carousel.properties}prev-arrow.alt-text
+preview.actualSize@ Actual Size@ Faktiske st\u00f8rrelse@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.actualSize
+preview.fitHeight@ Fit Height@ Pas til h\u00f8jden@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.fitHeight
+preview.fitPage@ Fit Page@ Pas til side@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.fitPage
+preview.fitWidth@ Fit Width@ Pas til bredden@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.fitWidth
+preview.fullscreen@ Fullscreen@ Fuldsk\u00e6rm@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.fullscreen
+preview.fullwindow@ Maximize@ Maksim\u00e9r@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.fullwindow
+preview.fullwindowEscape@ Press Esc to exit full window mode@ Tryk Esc for at tilbage fra fuldsk\u00e6rmsvisning@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.fullwindowEscape
+preview.page@ Page@ Side@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.page
+preview.pageOf@ of@ af@ {alfresco/preview/i18n/AlfDocumentPreview.properties}preview.pageOf
+progress-dialog.cancel-button.label@ Cancel@ {alfresco/services/i18n/UploadService.properties}progress-dialog.cancel-button.label
+progress-dialog.ok-button.label@ OK@ {alfresco/services/i18n/UploadService.properties}progress-dialog.ok-button.label
+progress-dialog.title@ Uploading...@ {alfresco/services/i18n/UploadService.properties}progress-dialog.title
+prompt.password.text@ This PDF is password protected. Please type the password below.@ Denne PDF er passwordbeskyttet. Skriv venligst password nedenfor.@ {alfresco/preview/i18n/AlfDocumentPreview.properties}prompt.password.text
+prompt.password.title@ Enter PDF Password@ Indtast PDF password@ {alfresco/preview/i18n/AlfDocumentPreview.properties}prompt.password.title
+propPicker.data.failure.message@ We couldn't load the properties. Try refreshing your screen, or check with your Alfresco Administrator that the server is running.@ {alfresco/pickers/i18n/PropertyPicker.properties}propPicker.data.failure.message
+propPicker.loading.data.message@ Loading properties...@ Henter egenskaber...@ {alfresco/pickers/i18n/PropertyPicker.properties}propPicker.loading.data.message
+propPicker.no.data.message@ No properties defined@ Ingen egenskaber fundet@ {alfresco/pickers/i18n/PropertyPicker.properties}propPicker.no.data.message
+propPicker.rendering.data.message@ Loading properties...@ Henter egenskaber...@ {alfresco/pickers/i18n/PropertyPicker.properties}propPicker.rendering.data.message
+publication.config.description@ The key/value pairs that will be passed as the payload of the publication@ N\u00f8gle/v\u00e6rdi par der bliver sendt som payload ved publisering@ {alfresco/forms/creation/i18n/Publication.properties}publication.config.description
+publication.config.label@ Payload Configuration@ Payload konfiguration@ {alfresco/forms/creation/i18n/Publication.properties}publication.config.label
+publication.readDisplay.label@ Topic: '{topic}'@ Emne: '{topic}'@ {alfresco/forms/creation/i18n/Publication.properties}publication.readDisplay.label
+publication.topic.description@ The topic that will be published on@ Dette emne vil blive publiseret d.@ {alfresco/forms/creation/i18n/Publication.properties}publication.topic.description
+publication.topic.label@ Topic@ Emne@ {alfresco/forms/creation/i18n/Publication.properties}publication.topic.label
+quick-share.disabled.description@ Share document@ Del dokument@ {alfresco/renderers/i18n/QuickShare.properties}quick-share.disabled.description
+quick-share.disabled.label@ Share@ Del@ {alfresco/renderers/i18n/QuickShare.properties}quick-share.disabled.label
+quick-share.enabled.description@ This document is shared (click for more options)@ Dette dokument er delt (klik for flere valgmuligheder)@ {alfresco/renderers/i18n/QuickShare.properties}quick-share.enabled.description
+quick-share.enabled.label@ Shared@ Delt@ {alfresco/renderers/i18n/QuickShare.properties}quick-share.enabled.label
+quick-share.public-url.label@ Public URL@ Offentlig URL@ {alfresco/renderers/i18n/QuickShare.properties}quick-share.public-url.label
+quick-share.share-with.label@ Share with...@ Del med...@ {alfresco/renderers/i18n/QuickShare.properties}quick-share.share-with.label
+quick-share.unshare.label@ Unshare@ Fjern deling@ {alfresco/renderers/i18n/QuickShare.properties}quick-share.unshare.label
+quick-share.view.label@ View@ Vis@ {alfresco/renderers/i18n/QuickShare.properties}quick-share.view.label
+readonly.warning@ Alfresco is running in READ ONLY mode. Please consult your System Administrator to resolve this.@ Alfresco afvikles i READ ONLY tilstand. V\u00e6r venlig at kontakte din systemadministrator for l\u00f8se dette.@ {alfresco/header/i18n/LicenseWarning.properties}readonly.warning
+recent.sites.label@ Recent Sites@ Nylige sites@ {alfresco/header/i18n/AlfSitesMenu.properties}recent.sites.label
+relative.day@ about a day ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.day
+relative.days@ {0} days ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.days
+relative.earlierThisWeek@ Earlier this week@ {alfresco/core/i18n/TemporalUtils.properties}relative.earlierThisWeek
+relative.hour@ about an hour ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.hour
+relative.hours@ {0} hours ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.hours
+relative.lastWeek@ Last week@ {alfresco/core/i18n/TemporalUtils.properties}relative.lastWeek
+relative.laterThisWeek@ Later this week@ {alfresco/core/i18n/TemporalUtils.properties}relative.laterThisWeek
+relative.minute@ a minute ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.minute
+relative.minutes@ {0} minutes ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.minutes
+relative.month@ about a month ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.month
+relative.months@ {0} months ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.months
+relative.nextWeek@ Next week@ {alfresco/core/i18n/TemporalUtils.properties}relative.nextWeek
+relative.seconds@ just now@ {alfresco/core/i18n/TemporalUtils.properties}relative.seconds
+relative.today@ Today@ {alfresco/core/i18n/TemporalUtils.properties}relative.today
+relative.tomorrow@ Tomorrow@ {alfresco/core/i18n/TemporalUtils.properties}relative.tomorrow
+relative.year@ about a year ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.year
+relative.years@ over {0} years ago@ {alfresco/core/i18n/TemporalUtils.properties}relative.years
+relative.yesterday@ Yesterday@ {alfresco/core/i18n/TemporalUtils.properties}relative.yesterday
+remove-favourite-site.label@ Remove current site from Favorites@ Fjern nuv\u00e6rende site fra favoritter@ {alfresco/header/i18n/AlfSitesMenu.properties}remove-favourite-site.label
+renderer.progress.complete@ Zip creation complete. Downloading zip file.@ {alfresco/renderers/i18n/Progress.properties}renderer.progress.complete
+renderer.progress.creating@ Creating archive to download@ {alfresco/renderers/i18n/Progress.properties}renderer.progress.creating
+renderer.progress.error@ There was an error getting progress status.@ {alfresco/renderers/i18n/Progress.properties}renderer.progress.error
+renderer.progress.status@ Creating zip file ({0} out of {1} files added)@ {alfresco/renderers/i18n/Progress.properties}renderer.progress.status
+reorder.movedown.altText@ Click to move "{0}" down a place@ {alfresco/renderers/i18n/Reorder.properties}reorder.movedown.altText
+reorder.movedown.success@ Successfully moved "{0}" down one place@ {alfresco/renderers/i18n/Reorder.properties}reorder.movedown.success
+reorder.moveup.altText@ Click to move "{0}" up a place@ {alfresco/renderers/i18n/Reorder.properties}reorder.moveup.altText
+reorder.moveup.success@ Successfully moved "{0}" up one place@ {alfresco/renderers/i18n/Reorder.properties}reorder.moveup.success
+role.SiteCollaborator@ Collaborator@ {alfresco/renderers/i18n/ActivitySummary.properties}role.SiteCollaborator
+role.SiteConsumer@ Consumer@ {alfresco/renderers/i18n/ActivitySummary.properties}role.SiteConsumer
+role.SiteContributor@ Contributor@ {alfresco/renderers/i18n/ActivitySummary.properties}role.SiteContributor
+role.SiteManager@ Manager@ {alfresco/renderers/i18n/ActivitySummary.properties}role.SiteManager
+roles.readassociations@ Consumer@ {alfresco/renderers/i18n/ActivitySummary.properties}roles.readassociations
+root.label@ My Files@ Mine Dokumenter@ {alfresco/documentlibrary/i18n/AlfBreadcrumbTrail.properties}root.label
+rule.display.any@ The value of field '{field}' will make no difference.@ V\u00e6rdien af feltet '{field}' vil ikke g\u00f8re nogen forskel.@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.display.any
+rule.display.mustAndmustNotBe@ The field '{field}' <b>MUST</b> be one of the following values: {mustBe} and must <b>NOT</b> be any of the following values: {mustNotBe}.@ Feltet '{field}' <b>SKAL</b> v\u00e6re en af f\u00f8lgende v\u00e6rdier: {mustBe} og m\u00e5 <b>IKKE</b> v\u00e6re en af f\u00f8lgende v\u00e6rdier: {mustNotBe}.@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.display.mustAndmustNotBe
+rule.display.mustBe@ The field '{field}' <b>MUST</b> be one of the following values: {mustBe}.@ Feltet '{field}' <b>SKAL</b> v\u00e6re en af f\u00f8lgende v\u00e6rdier: {mustBe}.@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.display.mustBe
+rule.display.mustNotBe@ The field '{field}' must <b>NOT</b> be any of the following values: {mustNotBe}.@ Feltet '{field}' m\u00e5 <b>IKKE</b> v\u00e6re en af f\u00f8lgende v\u00e6rdier: {mustNotBe}.@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.display.mustNotBe
+rule.field.description@ The field that the rule will apply to. When the selected field changes then the rule defined will be evaluated.@ Feltet som reglen tilf\u00f8jes. N\u00e5r det valgte felt \u00e6ndres evalueres den definerede regel.@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.field.description
+rule.field.label@ Value of field...@ V\u00e6rdien af felt...@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.field.label
+rule.fieldDeleted.label@ No field is selected for this rule (it's possible that a previously selected field has now been deleted). This rule will currently have no effect.@ Inget felt er valgt for denne regel (Muligvis er et tidligere valgt felt blevet slettet). Denne regel har p\u00e5 nuv\u00e6rende tidspunkt ingen effekt.@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.fieldDeleted.label
+rule.is.description@ A value that the field should be.@ En v\u00e6rdi som feltet skal v\u00e6re.@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.is.description
+rule.is.label@ Must be one of the following values@ Skal v\u00e6re en af f\u00f8lgende v\u00e6rdier@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.is.label
+rule.isNot.description@ A value that the field must NOT be.@ En v\u00e6rdi som feltet IKKE m\u00e5 v\u00e6re@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.isNot.description
+rule.isNot.label@ Must NOT be one of the following values@ M\u00e5 IKKE v\u00e6re en af f\u00f8lgende v\u00e6rdier@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.isNot.label
+rule.values.error@ Must be a comma separated list@ Skal v\u00e6re en komma separeret liste@ {alfresco/forms/creation/i18n/FormCreation.properties}rule.values.error
+saveConfig.button.label@ Save@ Gem@ {alfresco/creation/i18n/WidgetConfig.properties}saveConfig.button.label
+search.advanced@ Advanced Search...@ Avanceret s\u00f8gning...@ {alfresco/header/i18n/SearchBox.properties}search.advanced
+search.clear@ Clear@ Ryd@ {alfresco/header/i18n/SearchBox.properties}search.clear
+search.documents@ Documents@ Dokumenter@ {alfresco/header/i18n/SearchBox.properties}search.documents
+search.instruction@ Search files, people, sites@ S\u00f8g...@ {alfresco/header/i18n/SearchBox.properties}search.instruction
+search.instruction@ Type here to Search for people, sites, files...@ Skriv her for at s\u00f8ge personer, sites, dokumenter...@ {alfresco/header/i18n/PopupSearch.properties}search.instruction
+search.label@ Search files, people, sites@ S\u00f8g@ {alfresco/header/i18n/SearchBox.properties}search.label
+search.label@ Search :@ S\u00f8g :@ {alfresco/header/i18n/PopupSearch.properties}search.label
+search.message.found@ Matches found@ Resultater fundet@ {alfresco/preview/i18n/AlfDocumentPreview.properties}search.message.found
+search.message.notfound@ No matches found@ Ingen resultater fundet@ {alfresco/preview/i18n/AlfDocumentPreview.properties}search.message.notfound
+search.message.pending@ Searching...@ S\u00f8ger...@ {alfresco/preview/i18n/AlfDocumentPreview.properties}search.message.pending
+search.message.wrapped.bottom@ Wrapped search from bottom@ Indpakket s\u00f8gning fra bunden@ {alfresco/preview/i18n/AlfDocumentPreview.properties}search.message.wrapped.bottom
+search.message.wrapped.top@ Wrapped search from top@ Indpakket s\u00f8gning fra toppen@ {alfresco/preview/i18n/AlfDocumentPreview.properties}search.message.wrapped.top
+search.more@ More@ Mere@ {alfresco/header/i18n/SearchBox.properties}search.more
+search.no-items@ No items found.@ Ingen emner fundet.@ {alfresco/header/i18n/SearchBox.properties}search.no-items
+search.people@ People@ Personer@ {alfresco/header/i18n/SearchBox.properties}search.people
+search.results.count.label@ {0} - results found@ {alfresco/search/i18n/AlfSearchList.properties}search.results.count.label
+search.sites@ Sites@ Sites@ {alfresco/header/i18n/SearchBox.properties}search.sites
+search.this.site.message@ Search this site@ S\u00f8g p\u00e5 dette site@ {alfresco/accessibility/i18n/AccessibilityMenu.properties}search.this.site.message
+searchThumbnail.preview.dialog.close@ Close@ Luk@ {alfresco/renderers/i18n/SearchThumbnail.properties}searchThumbnail.preview.dialog.close
+searchThumbnail.preview.dialog.close@ Close@ {alfresco/search/i18n/SearchThumbnailMixin.properties}searchThumbnail.preview.dialog.close
+searchlist.data.failure.message@ We hit a problem getting your search results. Try searching again.@ {alfresco/search/i18n/AlfSearchList.properties}searchlist.data.failure.message
+searchlist.loading.data.message@ Searching...@ {alfresco/search/i18n/AlfSearchList.properties}searchlist.loading.data.message
+searchlist.no.data.message@ No results found@ {alfresco/search/i18n/AlfSearchList.properties}searchlist.no.data.message
+searchlist.rendering.data.message@ Waiting for search results...@ {alfresco/search/i18n/AlfSearchList.properties}searchlist.rendering.data.message
+select.all.label@ All@ Alle@ {alfresco/documentlibrary/i18n/AlfSelectDocumentListItems.properties}select.all.label
+select.documents.label@ Documents@ Dokumenter@ {alfresco/documentlibrary/i18n/AlfSelectDocumentListItems.properties}select.documents.label
+select.folders.label@ Folders@ Mapper@ {alfresco/documentlibrary/i18n/AlfSelectDocumentListItems.properties}select.folders.label
+select.none.label@ None@ Ingen@ {alfresco/documentlibrary/i18n/AlfSelectDocumentListItems.properties}select.none.label
+services.ActionService.ActionEditDetailsSuccess.title@ Edit Properties@ {alfresco/services/i18n/ActionService.properties}services.ActionService.ActionEditDetailsSuccess.title
+services.ActionService.ActionFolderDownload.cancel@ Cancel@ {alfresco/services/i18n/ActionService.properties}services.ActionService.ActionFolderDownload.cancel
+services.ActionService.ActionFolderDownload.title@ Generating zip@ {alfresco/services/i18n/ActionService.properties}services.ActionService.ActionFolderDownload.title
+services.ActionService.ActionUploadNewVersion.title@ Upload new version@ Upload ny version@ {alfresco/services/i18n/ActionService.properties}services.ActionService.ActionUploadNewVersion.title
+services.ActionService.button.cancel@ Cancel@ {alfresco/services/i18n/ActionService.properties}services.ActionService.button.cancel
+services.ActionService.button.ok@ OK@ {alfresco/services/i18n/ActionService.properties}services.ActionService.button.ok
+services.ActionService.button.save@ Save@ {alfresco/services/i18n/ActionService.properties}services.ActionService.button.save
+services.ActionService.copyMoveTo.multipleFiles@ files@ {alfresco/services/actions/i18n/CopyMoveService.properties}services.ActionService.copyMoveTo.multipleFiles
+services.ActionService.copyMoveTo.multipleFiles@ files@ {alfresco/services/i18n/ActionService.properties}services.ActionService.copyMoveTo.multipleFiles
+services.ActionService.copyTo.ok@ Copy@ {alfresco/services/actions/i18n/CopyMoveService.properties}services.ActionService.copyTo.ok
+services.ActionService.copyTo.ok@ Copy@ {alfresco/services/i18n/ActionService.properties}services.ActionService.copyTo.ok
+services.ActionService.copyTo.title@ Copy {0} to...@ {alfresco/services/actions/i18n/CopyMoveService.properties}services.ActionService.copyTo.title
+services.ActionService.copyTo.title@ Copy {0} to...@ {alfresco/services/i18n/ActionService.properties}services.ActionService.copyTo.title
+services.ActionService.moveTo.ok@ Move@ {alfresco/services/actions/i18n/CopyMoveService.properties}services.ActionService.moveTo.ok
+services.ActionService.moveTo.ok@ Move@ {alfresco/services/i18n/ActionService.properties}services.ActionService.moveTo.ok
+services.ActionService.moveTo.title@ Move {0} to...@ {alfresco/services/actions/i18n/CopyMoveService.properties}services.ActionService.moveTo.title
+services.ActionService.moveTo.title@ Move {0} to...@ {alfresco/services/i18n/ActionService.properties}services.ActionService.moveTo.title
+services.DocumentService.archiveName@ Archive@ {alfresco/services/i18n/DocumentService.properties}services.DocumentService.archiveName
+services.actionservice.ManageAspects.applied@ Currently selected@ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.applied
+services.actionservice.ManageAspects.aspectRetrievalFailed@ It was not possible to retrieve the aspects applied to {0}@ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.aspectRetrievalFailed
+services.actionservice.ManageAspects.aspectUpdateFailed@ It was not possible to update the aspects applied to {0}@ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.aspectUpdateFailed
+services.actionservice.ManageAspects.aspectUpdateSuccess@ Aspects successfully updated on {0}@ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.aspectUpdateSuccess
+services.actionservice.ManageAspects.available@ Available aspects to add@ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.available
+services.actionservice.ManageAspects.description@ @ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.description
+services.actionservice.ManageAspects.dialogTitle@ Aspects for {0}@ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.dialogTitle
+services.actionservice.ManageAspects.label@ Select Aspects@ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.label
+services.actionservice.ManageAspects.noAspects@ There are no aspects that can be selected@ {alfresco/services/actions/i18n/ManageAspectsService.properties}services.actionservice.ManageAspects.noAspects
+shared-files.root.label@ Shared Files@ Delte dokumenter@ {alfresco/navigation/i18n/Tree.properties}shared-files.root.label
+show.folders@ Show {0} subfolder(s)@ Via {0} undermappe(r)@ {alfresco/services/i18n/ActionService.properties}show.folders
+showLess.label@ Show Fewer@ Vis f\u00e6rre@ {alfresco/documentlibrary/i18n/AlfDocumentFilters.properties}showLess.label
+showMore.label@ Show More@ Vis mere@ {alfresco/documentlibrary/i18n/AlfDocumentFilters.properties}showMore.label
+site-finder.label@ Site Finder@ Sites\u00f8gning@ {alfresco/header/i18n/AlfSitesMenu.properties}site-finder.label
+sitePicker.category@ Site category@ {alfresco/pickers/i18n/SitePicker.properties}sitePicker.category
+sitePicker.launchPicker.multi@ Add Site@ {alfresco/forms/controls/i18n/SitePicker.properties}sitePicker.launchPicker.multi
+sitePicker.launchPicker.single@ Choose Site@ {alfresco/forms/controls/i18n/SitePicker.properties}sitePicker.launchPicker.single
+sitePicker.list.errorLoadingSites@ Error loading sites list@ {alfresco/pickers/i18n/SitePicker.properties}sitePicker.list.errorLoadingSites
+sitePicker.list.noSitesFound@ No sites available@ {alfresco/pickers/i18n/SitePicker.properties}sitePicker.list.noSitesFound
+sitePicker.noSites@ No sites available@ {alfresco/pickers/i18n/SitePicker.properties}sitePicker.noSites
+sitePicker.pickedItems.multi@ Selected Sites@ {alfresco/pickers/i18n/SitePicker.properties}sitePicker.pickedItems.multi
+sitePicker.pickedItems.single@ Selected Site@ {alfresco/pickers/i18n/SitePicker.properties}sitePicker.pickedItems.single
+sitePicker.pickerTitle.multi@ Select sites@ {alfresco/forms/controls/i18n/SitePicker.properties}sitePicker.pickerTitle.multi
+sitePicker.pickerTitle.single@ Choose site@ {alfresco/forms/controls/i18n/SitePicker.properties}sitePicker.pickerTitle.single
+sitePicker.removeAll.multi@ Remove Sites@ {alfresco/forms/controls/i18n/SitePicker.properties}sitePicker.removeAll.multi
+sitePicker.removeAll.single@ Remove Site@ {alfresco/forms/controls/i18n/SitePicker.properties}sitePicker.removeAll.single
+sitesList.loading.data.message@ Loading sites...@ Henter sites...@ {alfresco/documentlibrary/i18n/AlfSitesList.properties}sitesList.loading.data.message
+size.bytes@ bytes@ {alfresco/renderers/i18n/Size.properties}size.bytes
+size.gigabytes@ GB@ {alfresco/renderers/i18n/Size.properties}size.gigabytes
+size.kilobytes@ KB@ {alfresco/renderers/i18n/Size.properties}size.kilobytes
+size.megabytes@ MB@ {alfresco/renderers/i18n/Size.properties}size.megabytes
+skip.to.content.message@ Skip to content@ Forts\u00e6t til indhold@ {alfresco/accessibility/i18n/AccessibilityMenu.properties}skip.to.content.message
+skip.to.foot.message@ Skip to end of page@ G\u00e5 til bunden af siden@ {alfresco/accessibility/i18n/AccessibilityMenu.properties}skip.to.foot.message
+standard.upload.description@ Upload files@ Overf\u00f8r filer@ {alfresco/services/i18n/ActionService.properties}standard.upload.description
+standard.upload.title@ @ Byg dit eget bibliotek!@ {alfresco/services/i18n/ActionService.properties}standard.upload.title
+startDate@ From date@ Fra:@ {alfresco/reports/i18n/TopSiteContributorReport.properties}startDate
+status.active-workflows@ Belongs to {0} active workflows@ Tilh\u00f8rer til {0} aktive workflow@ {alfresco/services/i18n/ActionService.properties}status.active-workflows
+status.active-workflows@ Belongs to {0} active workflows@ Tilh\u00f8rer til {0} aktive workflow@ {alfresco/renderers/i18n/Indicators.properties}status.active-workflows
+status.cloud-indirect-sync@ Indirectly synced. Click to view for info.@ Indirekte synkroniseret. Klik for at se information@ {alfresco/services/i18n/ActionService.properties}status.cloud-indirect-sync
+status.cloud-indirect-sync@ Indirectly synced. Click to view for info@ Indirekte synkroniseret. Klik for at se information@ {alfresco/renderers/i18n/Indicators.properties}status.cloud-indirect-sync
+status.cloud-indirect-sync-failed@ Indirect sync unsuccessful. Click to view for info.@ Indirekte synkronisering fejlede. Klik for at se information@ {alfresco/services/i18n/ActionService.properties}status.cloud-indirect-sync-failed
+status.cloud-indirect-sync-failed@ Indirect sync failed. Click to view for info@ Indirekte synkronisering fejlede. Klik for at se information@ {alfresco/renderers/i18n/Indicators.properties}status.cloud-indirect-sync-failed
+status.cloud-sync-failed@ Sync unsuccessful. Click to view for info.@ Synkronisering fejlede Klik for at se information@ {alfresco/services/i18n/ActionService.properties}status.cloud-sync-failed
+status.cloud-sync-failed@ Sync failed. Click to view for info@ Synkronisering fejlede Klik for at se information@ {alfresco/renderers/i18n/Indicators.properties}status.cloud-sync-failed
+status.cloud-synced@ Click to view sync info@ Klik for at se synkroniseringsinformation@ {alfresco/services/i18n/ActionService.properties}status.cloud-synced
+status.cloud-synced@ Click to view sync info@ Klik for at se synkroniseringsinformation@ {alfresco/renderers/i18n/Indicators.properties}status.cloud-synced
+status.default@ What are you doing?@ Hvad laver du?@ {alfresco/header/i18n/CurrentUserStatus.properties}status.default
+status.dialog.title@ What Are You Thinking?@ Skriv l\u00f8s...@ {alfresco/header/i18n/CurrentUserStatus.properties}status.dialog.title
+status.editing@ Being edited by you@ Redigeres af dig@ {alfresco/services/i18n/ActionService.properties}status.editing
+status.editing@ Being edited by you@ Redigeres af dig@ {alfresco/renderers/i18n/Indicators.properties}status.editing
+status.exif@ EXIF properties available@ EXIF metadata tilg\u00e6ngelig@ {alfresco/services/i18n/ActionService.properties}status.exif
+status.exif@ EXIF metadata available@ EXIF metadata tilg\u00e6ngelig@ {alfresco/renderers/i18n/Indicators.properties}status.exif
+status.geographic@ Geolocation properties available@ Geolokaliserings metadata tilg\u00e6ngelig@ {alfresco/services/i18n/ActionService.properties}status.geographic
+status.geographic@ Geolocation metadata available@ Geolokaliserings metadata tilg\u00e6ngelig@ {alfresco/renderers/i18n/Indicators.properties}status.geographic
+status.label@ Status@ Status@ {alfresco/header/i18n/CurrentUserStatus.properties}status.label
+status.lock-owner@ Locked by you@ L\u00e5st af dig@ {alfresco/services/i18n/ActionService.properties}status.lock-owner
+status.lock-owner@ Locked by you@ L\u00e5st af dig@ {alfresco/renderers/i18n/Indicators.properties}status.lock-owner
+status.locked@ Locked by {0} ({1})@ L\u00e5st af {0} ({1})@ {alfresco/services/i18n/ActionService.properties}status.locked
+status.locked@ Locked by {0} ({1})@ L\u00e5st af {0} ({1})@ {alfresco/renderers/i18n/Indicators.properties}status.locked
+status.never-updated@ never@ Aldrig@ {alfresco/header/i18n/CurrentUserStatus.properties}status.never-updated
+status.rules@ Folder has rules applied@ Mappe har regler tilf\u00f8jet@ {alfresco/services/i18n/ActionService.properties}status.rules
+status.rules@ Folder has rules applied@ Mappe har regler tilf\u00f8jet@ {alfresco/renderers/i18n/Indicators.properties}status.rules
+status.simple-workflow@ Simple Approve/Reject workflow applied@ Simpel Godkend/Afvis workflow tilf\u00f8jet@ {alfresco/services/i18n/ActionService.properties}status.simple-workflow
+status.simple-workflow@ Simple Approve/Reject workflow applied@ Simpel Godkend/Afvis workflow tilf\u00f8jet@ {alfresco/renderers/i18n/Indicators.properties}status.simple-workflow
+status.transferred-node@ Transferred from another Repository@ Overf\u00f8rt fra et andet arkiv@ {alfresco/services/i18n/ActionService.properties}status.transferred-node
+status.transferred-node@ Transferred from another Repository@ Overf\u00f8rt fra et andet arkiv@ {alfresco/renderers/i18n/Indicators.properties}status.transferred-node
+status.updated@ Last updated: {0}@ Sidst opdateret: {0}@ {alfresco/header/i18n/CurrentUserStatus.properties}status.updated
+sum@ Size: {0}@ St\u00f8rrelse: {0}@ {alfresco/reports/i18n/TopSiteContributorReport.properties}sum
+sum@ Size: {0}@ St\u00f8rrelse: {0}@ {alfresco/reports/i18n/SiteContentReport.properties}sum
+tag.filter.title@ Display folders and documents tagged with "{0}"@ Vis mapper og dokumenter tagget med "{0}"@ {alfresco/renderers/i18n/ReadOnlyTag.properties}tag.filter.title
+templates.load.error@ Could Not Load Templates@ Kunne ikke hente skabeloner@ {alfresco/documentlibrary/i18n/AlfCreateTemplateContentMenu.properties}templates.load.error
+terms.and.conditions.message@ Terms and conditions@ Vilk\u00e5r og betingelser@ {alfresco/accessibility/i18n/AccessibilityMenu.properties}terms.and.conditions.message
+thumbnail.preview.dialog.close@ Close@ {alfresco/renderers/i18n/Thumbnail.properties}thumbnail.preview.dialog.close
+timePeriod@ Show period@ {alfresco/reports/i18n/TopSiteContributorReport.properties}timePeriod
+timePeriod-30d@ Last 30 Days@ {alfresco/reports/i18n/TopSiteContributorReport.properties}timePeriod-30d
+timePeriod-7d@ Last 7 Days@ {alfresco/reports/i18n/TopSiteContributorReport.properties}timePeriod-7d
+timePeriod-custom@ Date Range@ {alfresco/reports/i18n/TopSiteContributorReport.properties}timePeriod-custom
+timePeriod-today@ Today@ {alfresco/reports/i18n/TopSiteContributorReport.properties}timePeriod-today
+timePeriod-year@ Past Year@ {alfresco/reports/i18n/TopSiteContributorReport.properties}timePeriod-year
+tip.insitu-rename@ Rename@ Omd\u00f8b@ {alfresco/services/i18n/ActionService.properties}tip.insitu-rename
+tip.insitu-tag@ Tag@ Tag@ {alfresco/services/i18n/ActionService.properties}tip.insitu-tag
+title@ Site Contributor Breakdown@ Top Site Brugere@ {alfresco/reports/i18n/TopSiteContributorReport.properties}title
+title@ Site File Type Breakdown@ Site Indholdsrapport@ {alfresco/reports/i18n/SiteContentReport.properties}title
+title@ Site Contributor Breakdown@ Top Site Brugere@ {alfresco/dashlets/i18n/TopSiteContributorReportDashlet.properties}title
+title@ Site File Type Breakdown@ Site Indholdsrapport@ {alfresco/dashlets/i18n/SiteContentReportDashlet.properties}title
+title@ Title@ Titel@ {alfresco/dashlets/i18n/Dashlet.properties}title
+title.generic@ New Activity@ {alfresco/renderers/i18n/ActivitySummary.properties}title.generic
+title.label@ Uploading files@ Uploader filer@ {alfresco/upload/i18n/AlfUploadDisplay.properties}title.label
+toggle.off.label@ Off@ Slukket@ {alfresco/renderers/i18n/Toggle.properties}toggle.off.label
+toggle.off.tooltip@ Turn On@ T\u00e6nd@ {alfresco/renderers/i18n/Toggle.properties}toggle.off.tooltip
+toggle.on.label@ On@ T\u00e6ndt@ {alfresco/renderers/i18n/Toggle.properties}toggle.on.label
+toggle.on.tooltip@ Turn Off@ Sluk@ {alfresco/renderers/i18n/Toggle.properties}toggle.on.tooltip
+twister.categories.label@ Categories@ Kategorier@ {alfresco/navigation/i18n/CategoryTree.properties}twister.categories.label
+twister.library.label@ Library@ Bibliotek@ {alfresco/navigation/i18n/Tree.properties}twister.library.label
+unknown.status.label@ What are you thinking?@ Skriv l\u00f8s...@ {alfresco/header/i18n/CurrentUserStatus.properties}unknown.status.label
+upload-panel.close.label@ Close the upload window@ {alfresco/services/i18n/FileUploadService.properties}upload-panel.close.label
+upload-panel.minimise.label@ Minimize the upload window@ {alfresco/services/i18n/FileUploadService.properties}upload-panel.minimise.label
+upload-panel.restore.label@ Restore the upload window@ {alfresco/services/i18n/FileUploadService.properties}upload-panel.restore.label
+upload.cancelled@ The upload was cancelled@ {alfresco/upload/i18n/UploadMonitor.properties}upload.cancelled
+upload.error.empty-file@ 0kb files can't be uploaded@ {alfresco/services/i18n/_BaseUploadService.properties}upload.error.empty-file
+upload.error.reason-unknown@ Upload unsuccessful@ {alfresco/services/i18n/_BaseUploadService.properties}upload.error.reason-unknown
+upload.failure.icon.description@ A picture of a warning triangle.@ {alfresco/upload/i18n/UploadMonitor.properties}upload.failure.icon.description
+upload.failure.icon.title@ The file ''{0}'' couldn't be uploaded for the following reason. {1}@ {alfresco/upload/i18n/UploadMonitor.properties}upload.failure.icon.title
+upload.failure.reason.unknown@ Unknown@ Ukendt@ {alfresco/upload/i18n/AlfUploadDisplay.properties}upload.failure.reason.unknown
+upload.failure.unknown-reason@ Failed for unknown reason@ {alfresco/upload/i18n/UploadMonitor.properties}upload.failure.unknown-reason
+upload.history.path.prefix@ Path@ {alfresco/upload/i18n/UploadHistory.properties}upload.history.path.prefix
+upload.history.site.prefix@ Site@ {alfresco/upload/i18n/UploadHistory.properties}upload.history.site.prefix
+upload.label@ Upload@ {alfresco/documentlibrary/i18n/UploadButton.properties}upload.label
+upload.status.finishing@ Finishing...@ {alfresco/upload/i18n/UploadMonitor.properties}upload.status.finishing
+upload.status.inprogress@ In progress@ {alfresco/upload/i18n/UploadMonitor.properties}upload.status.inprogress
+upload.status.successful@ Successful@ {alfresco/upload/i18n/UploadMonitor.properties}upload.status.successful
+upload.status.unsuccessful@ Unsuccessful@ {alfresco/upload/i18n/UploadMonitor.properties}upload.status.unsuccessful
+upload.target.dialog.cancellation@ Cancel@ {alfresco/upload/i18n/UploadTarget.properties}upload.target.dialog.cancellation
+upload.target.dialog.confirmation@ Upload@ {alfresco/upload/i18n/UploadTarget.properties}upload.target.dialog.confirmation
+upload.target.dialog.title@ File Upload@ {alfresco/upload/i18n/UploadTarget.properties}upload.target.dialog.title
+upload.target.instruction@ Drag files here to upload@ {alfresco/upload/i18n/UploadTarget.properties}upload.target.instruction
+upload.target.location.picker.description@ Select a folder to upload to@ {alfresco/upload/i18n/UploadTarget.properties}upload.target.location.picker.description
+upload.target.location.picker.label@ Upload to@ {alfresco/upload/i18n/UploadTarget.properties}upload.target.location.picker.label
+upload.target.show.uploader@ Or choose files from your computer@ {alfresco/upload/i18n/UploadTarget.properties}upload.target.show.uploader
+uploads-container.title@ Uploading... {0}%@ {alfresco/services/i18n/_BaseUploadService.properties}uploads-container.title
+uploads-container.title-complete@ Upload Complete@ {alfresco/services/i18n/_BaseUploadService.properties}uploads-container.title-complete
+useful.sites.label@ Useful@ Brugbart@ {alfresco/header/i18n/AlfSitesMenu.properties}useful.sites.label
+usermenu.change-password.label@ Change Password@ \u00c6ndre adgangskode@ {alfresco/header/i18n/UserMenu.properties}usermenu.change-password.label
+usermenu.help.label@ Help@ Hj\u00e6lp@ {alfresco/header/i18n/UserMenu.properties}usermenu.help.label
+usermenu.logout.label@ Log out@ Log ud@ {alfresco/header/i18n/UserMenu.properties}usermenu.logout.label
+usermenu.menu.label@ User Name@ Brugernavn@ {alfresco/header/i18n/UserMenu.properties}usermenu.menu.label
+usermenu.profile.label@ My Profile@ Min profil@ {alfresco/header/i18n/UserMenu.properties}usermenu.profile.label
+usermenu.status.prompt@ What are you thinking?@ Hvad t\u00e6nker du p\u00e5?@ {alfresco/header/i18n/UserMenu.properties}usermenu.status.prompt
+validation.control.invalid@ invalid@ {alfresco/forms/controls/i18n/BaseFormControl.properties}validation.control.invalid
+validation.error.alttext@ We hit a problem verifying field '{0}'@ {alfresco/forms/controls/i18n/BaseFormControl.properties}validation.error.alttext
+validation.inprogress.alttext@ Checking '{0}'@ {alfresco/forms/controls/i18n/BaseFormControl.properties}validation.inprogress.alttext
+view-selection.group.label@ Views@ Visninger@ {alfresco/documentlibrary/i18n/AlfViewSelectionGroup.properties}view-selection.group.label
+widget.type.description@ The type of form control to use for the field@ Typen af formularstyring af feltet@ {alfresco/forms/creation/i18n/FormCreation.properties}widget.type.description
+widget.type.label@ Form control@ Formularstyring@ {alfresco/forms/creation/i18n/FormCreation.properties}widget.type.label
