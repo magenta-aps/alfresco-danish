@@ -4,18 +4,43 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>magenta-aps</groupId>
 	<artifactId>alfreso-danish-parent-pom</artifactId>
-	<version>5.0.0-SNAPSHOT</version>
+	<version>5.2.0-SNAPSHOT</version>
 	<name>alfresco-danish</name>
 	<description>Parent pom for alfresco-danish repo and share projects</description>
 	<packaging>pom</packaging>
 
-	<parent>
-		<groupId>org.alfresco.maven</groupId>
-		<artifactId>alfresco-sdk-parent</artifactId>
-		<version>2.0.0</version>
-	</parent>
+	<properties>
+		<!-- Alfresco Maven Plugin version to use -->
+		<alfresco.sdk.version>3.0.1</alfresco.sdk.version>
+
+		<!--
+		    Alfresco Share webapp version, this is the original Alfresco webapp that will be customized and then
+		    deployed and run by the tomcat maven plugin when executing for example $ mvn clean install alfresco:run
+            also used by the platform module to determine the correct alfresco-share-services artifact needed
+		 -->
+		<alfresco.share.version>5.2.e</alfresco.share.version>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- Properties used in dependency declarations, you don't need to change these -->
+		<alfresco.groupId>org.alfresco</alfresco.groupId>
+
+        <!-- Default is to run with a Community edition, change to 'enterprise' if using Enterprise edition -->
+        <maven.alfresco.edition>community</maven.alfresco.edition>
+
+		<!-- JRebel Hot reloading of classpath stuff and web resource stuff -->
+		<jrebel.version>1.1.6</jrebel.version>
+
+		<!-- Compile with Java 7, default is 5 -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+
 
 	<repositories>
+<!--
+
 		<repository>
 			<id>Alfresco-RELEASES</id>
 			<url>http://nexus.magenta-aps.dk/nexus/content/repositories/Alfresco-RELEASES</url>
@@ -28,8 +53,40 @@
 				<updatePolicy>daily</updatePolicy>
 			</snapshots>
 		</repository>
-	</repositories>
+-->
 
+        <repository>
+            <id>alfresco-public</id>
+            <url>https://artifacts.alfresco.com/nexus/content/groups/public</url>
+        </repository>
+        <repository>
+            <id>alfresco-public-snapshots</id>
+            <url>https://artifacts.alfresco.com/nexus/content/groups/public-snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+            </snapshots>
+        </repository>
+        <!-- Alfresco Enterprise Edition Artifacts, put username/pwd for server in settings.xml -->
+        <repository>
+            <id>alfresco-private-repository</id>
+            <url>https://artifacts.alfresco.com/nexus/content/groups/private</url>
+        </repository>
+	</repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>alfresco-plugin-public</id>
+            <url>https://artifacts.alfresco.com/nexus/content/groups/public</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>alfresco-plugin-public-snapshots</id>
+            <url>https://artifacts.alfresco.com/nexus/content/groups/public-snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
 	<distributionManagement>
 		<repository>
@@ -40,9 +97,8 @@
 			<id>Alfresco-SNAPSHOTS</id>
 			<url>http://nexus.magenta-aps.dk/nexus/content/repositories/Alfresco-SNAPSHOTS</url>
 		</snapshotRepository>
+
 	</distributionManagement>
-
-
 
 	<modules>
 		<module>repo</module>
