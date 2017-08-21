@@ -24,7 +24,6 @@
         <!-- Aikau framework version, it is released separately, so it can be useful to be able
         to bring in newer versions with bug fixes etc -->
         <aikau.version>1.0.101.11</aikau.version>
-        <dependency.aikau.version>1.0.101.11</dependency.aikau.version>
 
         <!-- Alfresco Surf version, if you change Share version you might need to change Surf version -->
         <alfresco.surf.version>6.11</alfresco.surf.version>
@@ -51,12 +50,12 @@
             <version>${alfresco.surf.version}</version>
             <scope>provided</scope>
         </dependency>
-
+<!--
         <dependency>
             <groupId>${alfresco.groupId}</groupId>
             <artifactId>aikau</artifactId>
-            <version>${dependency.aikau.version}</version>
-        </dependency>
+            <version>${aikau.version}</version>
+        </dependency>-->
     </dependencies>
 
     <build>
