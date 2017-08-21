@@ -51,6 +51,12 @@
             <version>${alfresco.surf.version}</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>${alfresco.groupId}</groupId>
+            <artifactId>aikau</artifactId>
+            <version>${dependency.aikau.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
