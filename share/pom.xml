@@ -50,12 +50,12 @@
             <version>${alfresco.surf.version}</version>
             <scope>provided</scope>
         </dependency>
-<!--
+
         <dependency>
             <groupId>${alfresco.groupId}</groupId>
             <artifactId>aikau</artifactId>
             <version>${aikau.version}</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <build>
